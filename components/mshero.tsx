@@ -17,7 +17,7 @@ const HeroSection: React.FC = () => {
 
 
       {/* Content */}
-      <div className="relative container mx-auto px-4 h-full flex items-center">
+      <div className="relative container mx-auto px-12 h-full flex items-center">
         <div className="text-white max-w-lg">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Elevate your love life with {" "}

@@ -8,7 +8,7 @@ export const metadata = {
 const page = () => {
   return (
    <main className=" relative w-full">
-        <section className="bg-gray-50 pt-20 pb-6" data-aos="fade-up">
+        <section className="bg-gray-50 pt-20 pb-6">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
           
             {/* Text Content */}

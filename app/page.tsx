@@ -3,7 +3,7 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import CustomButton from '@/components/CustomButton';
-import 'aos/dist/aos.css'; // AOS styles
+
 import Link from 'next/link';
 import BackgroundChanger from '@/components/background-changer';
 import HeroSection from "@/components/mshero";
@@ -17,7 +17,7 @@ import Heromid from "@/components/msheromid";
 // import HeroCarousel from "@/components/Carousel";
 
 export default function Home() {
- 
+  
 
   return (
     <main className="font-Lato">

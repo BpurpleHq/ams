@@ -409,35 +409,35 @@ export const cta = [
 //     },
 // ];
 
-export const communityLink = [
-    {
-        id: 1,
-        title: 'Career',
-        content: 'Break into tech like a PRO, start your journey with us.',
-        url: '/courses',
-    },
-    {
-        id: 2,
-        title: 'Workforce',
-        content: 'Equip you workforce with the right skill.',
-        url: '/community/workforce',
-    },
-];
+// export const communityLink = [
+//     {
+//         id: 1,
+//         title: 'Career',
+//         content: 'Break into tech like a PRO, start your journey with us.',
+//         url: '/courses',
+//     },
+//     {
+//         id: 2,
+//         title: 'Workforce',
+//         content: 'Equip you workforce with the right skill.',
+//         url: '/community/workforce',
+//     },
+// ];
 
-export const workforceCard = [
-    {
-        id: 1,
-        title: 'Continuous Learning and Development:',
-        content: 'Prioritize ongoing learning and professional development initiatives. Encourage employees to upskill and reskill through training programs, certifications, and workshops.  ',
-    },
-    {
-        id: 2,
-        title: 'Embrace Diversity and Inclusion',
-        content: 'Foster a culture that values and embraces diversity in all its forms, including gender, ethnicity, age, and background. Actively seek diverse talent, create inclusive policies. ',
-    },
-    {
-        id: 3,
-        title: 'Stay Current with Emerging Technologies',
-        content: 'Assess the skills required for the future and provide training and resources to equip employees with the necessary knowledge. ',
-    },
-]
+// export const workforceCard = [
+//     {
+//         id: 1,
+//         title: 'Continuous Learning and Development:',
+//         content: 'Prioritize ongoing learning and professional development initiatives. Encourage employees to upskill and reskill through training programs, certifications, and workshops.  ',
+//     },
+//     {
+//         id: 2,
+//         title: 'Embrace Diversity and Inclusion',
+//         content: 'Foster a culture that values and embraces diversity in all its forms, including gender, ethnicity, age, and background. Actively seek diverse talent, create inclusive policies. ',
+//     },
+//     {
+//         id: 3,
+//         title: 'Stay Current with Emerging Technologies',
+//         content: 'Assess the skills required for the future and provide training and resources to equip employees with the necessary knowledge. ',
+//     },
+// ]

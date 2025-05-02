@@ -1,10 +1,8 @@
-import CourseDetailBodyAI from '@/components/CourseDetailsBodyAI';
-import CourseInfo from '@/components/CourseInfo';
-import CoursesDetailsHeroAI from '@/components/CoursesDetailsHeroAI';
+
 import React from 'react'
 
 export const metadata = {
-  title: 'bpurpleHQ | Courses - AI',
+  title: 'AskMrzSparkles | Books',
 };
 
 const page = () => {

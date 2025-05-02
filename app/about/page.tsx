@@ -1,5 +1,4 @@
 
-import { services1, testimonials, values } from '@/constants';
 import Image from 'next/image';
 import { type Metadata } from 'next';
 import StatsSection from "@/components/msstat";
@@ -41,6 +40,7 @@ export default function AboutPage() {
           <div className="relative" style={{ paddingTop: "56.25%"}}>
             <Image
               src="/ms3.jpeg"
+              alt = "about image"
               layout="fill"
               objectFit="cover"
               className="opacity-80 rounded"
@@ -104,13 +104,6 @@ export default function AboutPage() {
             
           </div>
         </section>
-
-
-        
-
-
-
-
 
 
       

@@ -1,10 +1,8 @@
-import CourseDetailBodyDA from '@/components/CourseDetailsBodyDA';
-import CourseInfo from '@/components/CourseInfo';
-import CoursesDetailsHeroDA from '@/components/CoursesDetailsHeroDA';
+
 import React from 'react'
 
 export const metadata = {
-  title: 'bpurpleHQ | Courses - School of Data',
+  title: 'AskMrzSparkles | Courses',
 };
 
 const page = () => {

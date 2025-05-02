@@ -3,9 +3,7 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import CustomButton from '@/components/CustomButton';
-import Image from 'next/image';
 import 'aos/dist/aos.css'; // AOS styles
-import AOS from 'aos'; // Import AOS library
 import Link from 'next/link';
 import BackgroundChanger from '@/components/background-changer';
 import HeroSection from "@/components/mshero";
@@ -19,13 +17,7 @@ import Heromid from "@/components/msheromid";
 // import HeroCarousel from "@/components/Carousel";
 
 export default function Home() {
-  // Initialize AOS for animations
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, // Animation duration
-      once: true, // Animate only once on scroll
-    });
-  }, []);
+ 
 
   return (
     <main className="font-Lato">

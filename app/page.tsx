@@ -38,6 +38,9 @@ export default function Home() {
         <TestimonialsSection />
       </section>
 
+      <section className="bg-extra" data-aos="fade-up">
+        <Books />
+      </section>
       
     </main>
   );

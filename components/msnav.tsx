@@ -12,6 +12,7 @@ import MenuItems from "./MenuItems";
 import MenuAction from "./MenuAction";
 
 const Navbar = () => {
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const scrolled = useScrollTop();
 
@@ -83,3 +84,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

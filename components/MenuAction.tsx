@@ -14,7 +14,7 @@ const MenuAction = () => {''
         /> 
       </Link> **/}
 
-      <Link href='/about'>  {/**changed the button name and url **/}
+      <Link href='/contact'>  {/**changed the button name and url **/}
         <CustomButton
           title='Contact Us'
           btnType='button'

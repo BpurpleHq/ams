@@ -14,7 +14,7 @@ const TestimonialsSection: React.FC = () => {
       <div className="container mx-auto px-4">
        
         <div className="flex flex-col md:flex-row items-center">
-          <div className="w-full md:w-1/2 text-center md:text-left ml-6">
+          <div className="w-full md:w-1/3 text-center md:text-left ml-6">
           <h1 className="text-4xl text-white font-bold mb-4">
             What Our Clients are Saying 
           </h1>
@@ -24,7 +24,7 @@ const TestimonialsSection: React.FC = () => {
             About Us
           </button>*/}
         </div>
-          <div className="w-full md:w-1/2 space-y-6">
+          <div className="w-full md:w-2/3 space-y-6">
            {testimonial.map((testimonial, index, arr) => {
               // Determine if the card should be indented (first, last, and every other card)
               const isIndented =

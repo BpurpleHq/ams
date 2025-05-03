@@ -17,7 +17,7 @@ const HeroSection: React.FC = () => {
 </div>
         </div>
 
-        <div className="w-full md:w-1/2 text-left md:text-left ml-6">
+        <div className="w-full md:w-1/2 text-justify md:text-left ml-6">
           <h1 className="text-4xl font-bold mb-4">
             Navigate Relationships with <span className="text-teal-500">Confidence & Clarity</span>
           </h1>

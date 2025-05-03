@@ -4,6 +4,13 @@ import testimonial1 from '../public/testimonial1.png';
 import testimonial2 from '../public/testimonial2.png';
 
 
+export interface MenuLink {
+  id: number;
+  title: string;
+  url: string;
+  dropdownItems?: { label: string; href: string }[]; 
+}
+
 
 export const menuLinks = [
     {
@@ -16,6 +23,13 @@ export const menuLinks = [
         title: 'About',
         url: '/about',
     },
+
+     {
+        id: 5,
+        title: 'Service',
+        url: '/services',
+    },
+
     {
         id: 3,
         title: 'Work with me',
@@ -25,6 +39,11 @@ export const menuLinks = [
         id: 1,
         title: 'Resources',
         url: '/resources',
+        dropdownItems: [
+      { label: 'Books', href: '/resources/books' },
+      { label: 'Courses', href: '/resources/courses' },
+      
+    ],
     },
 
     {
@@ -33,11 +52,7 @@ export const menuLinks = [
         url: '/events',
     },
    
-    // {
-    //     id: 5,
-    //     title: 'FAQ',
-    //     url: '/faq',
-    // },
+   
 
     
 ];

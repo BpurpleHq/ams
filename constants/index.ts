@@ -2,6 +2,7 @@
 
 import testimonial1 from '../public/testimonial1.png';
 import testimonial2 from '../public/testimonial2.png';
+import ms1 from "..public/ms1.png"
 
 
 export interface MenuLink {
@@ -26,14 +27,8 @@ export const menuLinks = [
 
      {
         id: 5,
-        title: 'Service',
-        url: '/services',
-    },
-
-    {
-        id: 3,
         title: 'Work with me',
-        url: '/workwithme',
+        url: '/services',
     },
     {
         id: 1,
@@ -42,6 +37,7 @@ export const menuLinks = [
         dropdownItems: [
       { label: 'Books', href: '/resources/books' },
       { label: 'Courses', href: '/resources/courses' },
+      { label: 'Testimonial', href: '/resources/testimonial' },
       
     ],
     },
@@ -69,30 +65,17 @@ export const footerLinks = [
   {
     title: "Books",
     links: [
-
-
       { title: "Communities", url: "/community" },
       { title: "Courses", url: "/courses" },
       { title: "Contact Us", url: "/faq/ask-a-question" },
-      
-
-
     ],
   },
 
-  // {
-  //   title: "Legal",
-  //   links: [
-  //     { title: "Privacy", url: "#" },
-  //     { title: "Terms", url: "#" },
-  //   ],
-  // },
   {
     title: "Contact",
     links: [
 
       { title: "Book a Meeting", url: "#" },
-
       { title: "+234 123 456 7890", url: "#" },
       { title: "info@askmrzsparkles.com", url: "#" },
       { title: "Send a Message", url: "#" },
@@ -116,29 +99,59 @@ export const metrics = [
     },
     {
         id: 3,
-        figure: '15+',
-        title: 'Year of Experience',
+        figure: '10+',
+        title: 'Different Countries',
  
     }
 ];
 
-export const products = [
+
+export const services = [
+  {
+    title: "Singles Coaching, Counseling & Therapy (Become Whole, Choose Better, Build Longer)",
+    description: "Elevate your personal growth and attain clarity with dedicated coaching tailored for singles, as seasoned relationship coach...",
+    image: "/ms1.png",
+  },
+  {
+    title: "Couples Coaching, Counselling & Therapy (Reconnect. Revive. Reinforce).",
+    description: "Our tailored one-on-one coaching sessions help you identify and overcome personal barriers, empowering you to evolve into the best version of...",
+    image: "/ms1.png",
+  },
+  {
+    title: "Premarital Coaching Program (PCP) Build a Strong Foundation Before Saying - I Do",
+    description: "Are you ready to attract and build meaningful relationships? Our Clarity sessions are designed to help you understand your patterns...",
+    image: "/ms1.png",
+  },
+  {
+    title: "Marriage Health Check (MCH)- (Assess. Adjust. Elevate)",
+    description: "Preparing for marriage is a significant step, our premarital counseling program offers comprehensive guidance to ensure you and...",
+    image: "/ms1.png",
+  },
+ 
+];
+
+
+export const servicefull = [
     {
         id: 1,
-        image: testimonial2,
-        title: 'Big Data School',
-        description: 'Announcing our Data Engineering Training Bootcamp – your gateway to mastering the foundations of data architecture and processing! Led by industry experts, our immersive program provides hands-on experience with cutting-edge tools and techniques essential for building scalable data pipelines and infrastructure. Whether you are a seasoned data professional or new to the field, join us and gain the skills needed to excel in the rapidly evolving world of data engineering.',
-       
+        title: 'Singles Coaching, Counseling & Therapy (Become Whole, Choose Better, Build Longer)',
+        description: 'Before building a life with someone else, you must first build a life within yourself. Whether you are single'
     },
     {
         id: 2,
-        image: testimonial2,
-        title: 'Cybersecurity',
-        description: 'Announcing our Cybersecurity Training Bootcamp: Your gateway to mastering the art of cybersecurity defense! Led by industry experts, our hands-on program equips you with the skills and knowledge needed to combat modern cyber threats head-on. Whether you are a seasoned professional or new to the field, join us in securing the digital landscape of tomorrow. Enroll now and become a cybersecurity leader in just weeks!',
+        title: 'Couples Coaching, Counselling & Therapy (Reconnect. Revive. Reinforce)',
+        description: 'When two lives come together, the journey doesn',
     },
     {
         id: 3,
-        image: testimonial2,
+        
+        title: 'Artificial Intelligence',
+        description: 'Introducing our AI Tools Training Bootcamp – your passport to unlocking the potential of artificial intelligence! Led by seasoned AI experts, our intensive program offers hands-on training with cutting-edge tools and techniques essential for navigating the AI landscape. Whether you are a beginner or an experienced professional, dive into the world of machine learning, deep learning, and natural language processing.',
+    },
+
+    {
+        id: 4,
+        
         title: 'Artificial Intelligence',
         description: 'Introducing our AI Tools Training Bootcamp – your passport to unlocking the potential of artificial intelligence! Led by seasoned AI experts, our intensive program offers hands-on training with cutting-edge tools and techniques essential for navigating the AI landscape. Whether you are a beginner or an experienced professional, dive into the world of machine learning, deep learning, and natural language processing.',
     }
@@ -147,27 +160,55 @@ export const products = [
 export const testimonial = [
     {
         id: 1,
-        quote: '“I have related with Hygro right from my dating years and I have noticed that she is my very first point of call after God when I faced with any relationship challenge.” ',
-        image: testimonial1,
-        name: 'Ifeyinwa Victory',
+        quote: 'I came in hoping for someone balanced and objective, and my first session with MrzSparkles was a big win. It felt so relieving to talk openly about my marriage without feeling judged. She listened attentively and offered practical, down-to-earth guidance. Since then, there’s been real improvement. My wife and I now appreciate our differences better, and I’ve picked up valuable insights I can apply in our marriage. Sometimes, it just helps to have what you know reaffirmed by someone else.',
+        name: 'Paul, UK',
        
     },
     {
         id: 2,
-        quote: '"I have related with Hygro right from my dating years and I have noticed that she is my very first point of call after God when I faced with any relationship challenge." ',
-        image: testimonial2,
-        name: 'Awa Sule',
+        quote: 'I was not sure if counselling would make a difference, but this program turned out to be a real blessing. It taught me so many valuable lessons as I started this new chapter. From financial responsibility to sex education in marriage, setting boundaries with in-laws and friends, embracing godly values, and learning how to work as a team with my partner — every part was impactful. I’ll definitely recommend it to friends and family.',
+        name: 'Goodness, Canada',
+       
+    },
+
+];
+
+export const alltestimonial = [
+    {
+        id: 1,
+        quote: 'I came in hoping for someone balanced and objective, and my first session with MrzSparkles was a big win. It felt so relieving to talk openly about my marriage without feeling judged. She listened attentively and offered practical, down-to-earth guidance. Since then, there’s been real improvement. My wife and I now appreciate our differences better, and I’ve picked up valuable insights I can apply in our marriage. Sometimes, it just helps to have what you know reaffirmed by someone else.',
+        name: 'Paul, UK',
+       
+    },
+    {
+        id: 2,
+        quote: 'I was not sure if counselling would make a difference, but this program turned out to be a real blessing. It taught me so many valuable lessons as I started this new chapter. From financial responsibility to sex education in marriage, setting boundaries with in-laws and friends, embracing godly values, and learning how to work as a team with my partner — every part was impactful. I’ll definitely recommend it to friends and family.',
+        name: 'Goodness, Canada',
        
     },
  {
         id: 3,
-        quote: '"I have related with Hygro right from my dating years and I have noticed that she is my very first point of call after God when I faced with any relationship challenge." ',
-        image: testimonial2,
-        name: 'Awa Sule',
+        quote: 'We didn’t know her before and I’m usually not quick to open up to strangers, but we knew we needed to lay a strong foundation for our marriage. Church counselling hadn’t been enough, so we decided to involve a professional—and that made all the difference. I learned to express my thoughts and feelings more intentionally (even though I thought I was already good at it), and her sessions opened up new perspectives I’d never considered before.',
+        name: 'AC, Canada',
         
     },
 
+     {
+        id: 4,
+        quote: 'I came into the program feeling hopeless, defeated, and scared—convinced my marriage was beyond redemption. I wasn’t sure what to expect, but I’m so glad I took the step. The sessions were practical, direct, and truly addressed the real issues. I felt safe opening up without fear of judgment or it getting back to my spouse. Your expertise is undeniable—you truly know your stuff. I thoroughly enjoyed every session.',
+        name: 'C. Lagos',
+        
+    },
+     {
+        id: 5,
+        quote: 'I wasnt sure I would get much value from the session, but it turned out to be a good experience. I learnt new things about my partner, especially the importance of understanding her love languages, cultural beliefs, and specific traits I need to pay attention to and improve on.',
+        name: 'E.N. Port Harcourt',
+        
+    },
+
+
 ];
+
 
 
 export const cta = [

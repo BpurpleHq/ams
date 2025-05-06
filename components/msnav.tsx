@@ -36,7 +36,6 @@ const Navbar = () => {
       {/* Desktop Menu */}
       <div className="hidden lg:flex lg:items-center lg:gap-4 lg:justify-end lg:flex-1">
         <MenuItems />
-      
         <MenuAction />
       </div>
 

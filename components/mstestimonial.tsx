@@ -2,6 +2,7 @@ import { testimonial } from '@/constants';
 import Image from 'next/image';
 import React from 'react';
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
+import Link from "next/link"
 
 const TestimonialsSection: React.FC = () => {
   return (
@@ -15,32 +16,26 @@ const TestimonialsSection: React.FC = () => {
        
         <div className="flex flex-col md:flex-row items-center">
           <div className="w-full md:w-1/3 text-center md:text-left ml-6">
-          <h1 className="text-4xl text-white font-bold mb-4">
-            What Our Clients are Saying 
+          <h1 className="text-5xl text-white font-bold m-4">
+            Don't take our word for it!!
           </h1>
-          <p className="text-white mb-6"> All that excitement before your wedding day doesn’t have to fly outside the window in marriage. Your relationship with your husband can grow even deeper, more exciting and blissful.
-          </p>
-          {/*<button className="bg-teal-700 text-white px-6 py-3 rounded-full hover:bg-teal-600">
-            About Us
-          </button>*/}
+          <p className="text-white text-3xl font-light m-4"> See what our clients are saying.. </p>
         </div>
-          <div className="w-full md:w-2/3 space-y-6">
-           {testimonial.map((testimonial, index, arr) => {
-              // Determine if the card should be indented (first, last, and every other card)
+          <div className="w-full md:w-2/3 space-y-6 duration-600 animate-fade-in">
+           {testimonial.map((testimonial, index) => {
               const isIndented =
-                index === 0 || // First card
-                index === arr.length - 1 || // Last card
-                index % 2 === 0; // Every other card (0, 2, 4, etc.)
+                index === 0 ||
+                index % 2 === 0; 
 
               return (
                 <div
                   key={index}
                   className="bg-white p-6 rounded-lg shadow-md flex items-center transform transition duration-300 hover:shadow-lg hover:scale-105"
                   style={{
-                    marginLeft: isIndented ? '80px' : '0px', // Indent first, last, and alternate cards
+                    marginLeft: isIndented ? '80px' : '0px', 
                   }}
                 >
-                  <Image src={testimonial.image} alt={testimonial.name} width={50} height={50} className="rounded-full mr-4" />
+                  
                   <div>
                     <p className="text-gray-600 italic">"{testimonial.quote}"</p>
                     <p className="text-teal-700 font-semibold mt-2">{testimonial.name}</p>
@@ -51,9 +46,11 @@ const TestimonialsSection: React.FC = () => {
           </div>
         </div>
         <div className="text-center mt-8">
-          {/*<button className="bg-teal-700 text-white px-6 py-3 rounded-full hover:bg-teal-600">
-            View More
-          </button>*/}
+        <Link href='/resources/testimonial'>
+          <button className="bg-teal-700 text-white px-6 py-3 rounded-full hover:bg-teal-600">
+            View More..
+          </button>
+          </Link>
         </div>
       </div>
     </section>

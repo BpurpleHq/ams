@@ -109,23 +109,23 @@ export const metrics = [
 export const services = [
   {
     title: "Singles Coaching, Counseling & Therapy (Become Whole, Choose Better, Build Longer)",
-    description: "Elevate your personal growth and attain clarity with dedicated coaching tailored for singles, as seasoned relationship coach...",
-    image: "/ms1.png",
+    description: "Before building a life with someone else, you must first build a life within yourself. Whether you are single and waiting, dating or engaged to be married, I’m here to hold your hand through this phase.If you're a purpose-driven single ambitious, growth-focused, and unwilling to settle for less, this is your space. If you find yourself wondering....",
+    image: "/singlepeeps.png",
   },
   {
     title: "Couples Coaching, Counselling & Therapy (Reconnect. Revive. Reinforce).",
-    description: "Our tailored one-on-one coaching sessions help you identify and overcome personal barriers, empowering you to evolve into the best version of...",
-    image: "/ms1.png",
+    description: "When two lives come together, the journey doesn’t stop at the - I do. It’s just the beginning. Even the best of us can lose sight of what brought us together when life, work, and responsibilities take over.Whether you wish to apply alone or with your Spouse, I am here to guide you through this phase. Its possible you might be feeling...",
+    image: "/couple.png",
   },
   {
     title: "Premarital Coaching Program (PCP) Build a Strong Foundation Before Saying - I Do",
-    description: "Are you ready to attract and build meaningful relationships? Our Clarity sessions are designed to help you understand your patterns...",
-    image: "/ms1.png",
+    description: "Premarital sessions with MrzSparkles is not a program taken to tick a box that you have done the premarital classes, it is a life changing experience created to open you up to the reality of who you are, the partner you have chosen for marriage and the kind of relationship you currently have....",
+    image: "/dating.png",
   },
   {
     title: "Marriage Health Check (MCH)- (Assess. Adjust. Elevate)",
-    description: "Preparing for marriage is a significant step, our premarital counseling program offers comprehensive guidance to ensure you and...",
-    image: "/ms1.png",
+    description: "Is your marriage thriving or just surviving? A Sparkling marriage needs continuous care and attention to flourish and the best way to achieve growth in marriage is to learn to pause and reflect on where you are, where you want to go, and what needs to be adjusted for growth...",
+    image: "/family.png",
   },
  
 ];
@@ -156,6 +156,12 @@ export const servicefull = [
         description: 'Introducing our AI Tools Training Bootcamp – your passport to unlocking the potential of artificial intelligence! Led by seasoned AI experts, our intensive program offers hands-on training with cutting-edge tools and techniques essential for navigating the AI landscape. Whether you are a beginner or an experienced professional, dive into the world of machine learning, deep learning, and natural language processing.',
     }
 ];
+
+
+
+
+
+
 
 export const testimonial = [
     {

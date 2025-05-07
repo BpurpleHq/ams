@@ -16,8 +16,8 @@ const ServicesSection: React.FC = () => {
               <Image
                 src={service.image}
                 alt={service.title}
-                width={100}
-                height={100}
+                width={70}
+                height={70}
                 className="rounded-full mx-50 my-50 mb-4 "
               />
               <h3 className="text-xl font-semibold mb-2">{service.title}</h3>

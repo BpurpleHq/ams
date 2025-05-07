@@ -22,7 +22,7 @@ const HeroSection: React.FC = () => {
           <h1 className="text-3xl font-bold m-4">
             Navigate Relationships with <span className="text-teal-500">Confidence & Clarity</span>
           </h1>
-          <p className="text-gray-600 mb-6">
+          <p className="text-lg text-gray-600 mb-6 text-justify md:text-left">
             Every wife should glow in marriage and you should not be different. All that excitement before your wedding day doesn’t have to fly outside the window in marriage. Your relationship with your husband can grow even deeper, more exciting and blissful.
           </p>
           <button className="bg-teal-500 text-white px-6 py-3 rounded-full hover:bg-teal-600">

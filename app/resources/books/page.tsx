@@ -24,7 +24,7 @@ const page = () => {
         </div>
         <div className="w-full md:w-1/2 text-center md:text-left">
           <h2 className="text-3xl font-bold mb-4">In the Pursuit for Oneness</h2>
-          <p className="text-lg mb-6">
+          <p className="text-lg text-gray-600 mb-6 text-justify md:text-left">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore 
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
@@ -45,7 +45,7 @@ const page = () => {
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center duration-600 animate-fade-in">
         <div className="w-full md:w-1/2 text-center md:text-left">
           <h2 className="text-3xl font-bold mb-4">Hey Wifey Stop- 7 damaging mistakes every young wives must avoid</h2>
-          <p className="text-lg mb-6">
+          <p className="text-lg text-gray-600 mb-6 text-justify md:text-left">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore 
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
@@ -64,13 +64,13 @@ const page = () => {
        
       </div>
     </section>
-
+{/*
      <section className="bg-teal-100 py-16">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center duration-600 animate-fade-in">
        
         <div className="w-full md:w-1/2 text-center md:text-left">
           <h2 className="text-3xl font-bold mb-4">The Relationship Checklist</h2>
-          <p className="text-lg mb-6">
+          <p className="text-lg text-gray-600 mb-6 text-justify md:text-left">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore 
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
@@ -88,7 +88,7 @@ const page = () => {
         </div>
        
       </div>
-    </section>
+    </section>*/}
 
 
 

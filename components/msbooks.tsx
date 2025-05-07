@@ -7,7 +7,7 @@ const BooksSection: React.FC = () => {
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
         <div className="w-full md:w-1/2 text-center md:text-left">
           <h2 className="text-3xl font-bold mb-4">Get the newest collection of our books</h2>
-          <p className="text-lg mb-6">
+          <p className="text-lg text-gray-600 mb-6 text-justify md:text-left">
             Take charge of your mind, emotions and actions. <br />
             Let us guide you to build the relationship and marriage you desire.
             Let us guide you to build the relationship and marriage you desire.

@@ -36,7 +36,7 @@ const HeroSection: React.FC = () => {
 
           <span>  </span> 
           <Link href='/contact'>
-          <button className="bg-white text-teal-400 px-6 py-3 rounded-full border border-color border-teal-400 hover:bg-teal-400 hover:text-white">
+          <button className="bg-white text-teal-400 px-6 py-3 rounded-full hover:bg-teal-400 hover:text-white">
             Contact Us
           </button>
           </Link>

@@ -2,7 +2,7 @@ import CustomButton from '@/components/CustomButton'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import Contact from '@/components/contact'
+
 
 export const metadata = {
   title: 'AskMrzSparkles | Contact',
@@ -12,7 +12,7 @@ const page = () => {
   return (
     <main className=" relative w-full">
     <section className="pt-20 pb-6">
-          {/*<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
           
             
             <div className="lg:w-1/2 m-2 text-center lg:text-left">
@@ -22,18 +22,18 @@ const page = () => {
           </p>
               
             </div>
-          </div>*/}
+          </div>
         </section>
-      <section className="bg-white py-16">
+     {/* <section className="bg-white py-16">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center duration-600 animate-fade-in">
         <div className="w-full md:w-1/2 text-center md:text-left">
           <Contact />
         </div>
-        {/*<div className="w-full md:w-1/2 mt-8 md:mt-0">
+        <div className="w-full md:w-1/2 mt-8 md:mt-0">
           <Image src="/books3.jpeg" alt="Books Collection" width={300} height={300} className="mx-auto" />
-        </div>*/}
+        </div>
       </div>
-    </section>
+    </section>*/}
         
 
       

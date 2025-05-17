@@ -72,7 +72,7 @@ const Page = () => {
             <div className="w-full md:w-1/2">
               <Image
                 src={service.image}
-                alt={service.alt || service.title}
+                alt={service.title}
                 width={600}
                 height={400}
                 className="rounded-xl shadow-lg object-cover"

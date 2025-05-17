@@ -14,6 +14,7 @@ import Books from "@/components/msbooks";
 import Newsletter from "@/components/msnewsletter";
 import Heromid from "@/components/msheromid";
 import Tama from "@/components/tama";
+
 // import HeroCarousel from "@/components/Carousel";
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
       <section className="bg-extra" data-aos="fade-up">
         <HeroSection />
       </section>
+      
        <section className="bg-extra" data-aos="fade-up">
         <Tama />
       </section>

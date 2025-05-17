@@ -1,58 +1,79 @@
 import { testimonial } from '@/constants';
 import Image from 'next/image';
 import React from 'react';
-import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
-import Link from "next/link"
+import Link from "next/link";
+import CustomButton from './CustomButton';
 
 const TestimonialsSection: React.FC = () => {
   return (
     <section
-      className="py-16 bg-gray-50 bg-cover bg-center"
+      className="relative py-20 bg-gray-900 bg-cover bg-center"
       style={{
-        backgroundImage: `url('/slideimg3.png')`, // Replace with actual background image URL or path
+        backgroundImage: `url('/slideimg3.png')`,
       }}
     >
-      <div className="container mx-auto px-4">
-       
-        <div className="flex flex-col md:flex-row items-center">
-          <div className="w-full md:w-1/3 text-center md:text-left ml-6">
-          <h1 className="text-5xl text-white font-bold m-4">
-            Don't take our word for it!!
-          </h1>
-          <p className="text-white text-3xl font-light m-4"> See what our clients are saying.. </p>
-        </div>
-          <div className="w-full md:w-2/3 space-y-6 duration-600 animate-fade-in">
-           {testimonial.map((testimonial, index) => {
-              const isIndented =
-                index === 0 ||
-                index % 2 === 0; 
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black bg-opacity-60"></div>
 
+      <div className="relative container mx-auto px-6 max-w-7xl">
+        <div className="flex flex-col md:flex-row items-start md:items-center gap-12">
+          {/* Heading */}
+          <div className="w-full md:w-1/3 text-center md:text-left">
+            <h1 className="text-5xl font-extrabold text-white mb-4 leading-tight">
+              Don't take our word for it!!
+            </h1>
+            <p className="text-white text-2xl font-light">
+              See what our clients are saying..
+            </p>
+          </div>
+
+          {/* Testimonials */}
+          <div className="w-full md:w-2/3 space-y-8">
+            {testimonial.map((item, index) => {
+              const isIndented = index % 2 === 0;
               return (
                 <div
                   key={index}
-                  className="bg-white p-6 rounded-lg shadow-md flex items-center transform transition duration-300 hover:shadow-lg hover:scale-105"
-                  style={{
-                    marginLeft: isIndented ? '80px' : '0px', 
-                  }}
+                  className={`bg-white p-8 rounded-2xl shadow-lg flex flex-col transition-transform duration-300 hover:shadow-2xl hover:scale-105 animate-fade-in`}
+                  style={{ marginLeft: isIndented ? '80px' : '0px' }}
                 >
-                  
-                  <div>
-                    <p className="text-gray-600 italic">"{testimonial.quote}"</p>
-                    <p className="text-teal-700 font-semibold mt-2">{testimonial.name}</p>
-                  </div>
+                  <p className="text-gray-700 italic text-lg leading-relaxed">"{item.quote}"</p>
+                  <p className="text-teal-600 font-semibold mt-4 text-right">{item.name}</p>
                 </div>
               );
             })}
           </div>
         </div>
-        <div className="text-center mt-8">
-        <Link href='/resources/testimonial'>
-          <button className="bg-teal-700 text-white px-6 py-3 rounded-full hover:bg-teal-600">
-            View More..
-          </button>
-          </Link>
+
+        {/* Button */}
+        <div className="text-center mt-12">
+         <Link href="/resources/testimonial" passHref>  {/**changed the button name and url **/}
+        <CustomButton
+          title='More Testimonials..'
+          btnType='button'
+          containerStyles='bg-teal-400 py-2 px-5 rounded-lg hover:bg-teal-700'
+          textStyles='text-white font-medium hover:text-white'
+        />
+      </Link>
+          
         </div>
       </div>
+
+      <style jsx>{`
+        @keyframes fade-in {
+          from {
+            opacity: 0;
+            transform: translateY(20px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+        .animate-fade-in {
+          animation: fade-in 0.7s ease forwards;
+        }
+      `}</style>
     </section>
   );
 };

@@ -12,7 +12,7 @@ export default function AboutPage() {
   return (
 
      <main className="relative w-full">
-      <section className="bg-gradient-to-r from-teal-100 to-teal-200 py-16 mt-20">
+      {/*  <section className="bg-gradient-to-r from-teal-100 to-teal-200 py-16 mt-20">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-8 animate-fade-in">
           <div className="w-full md:w-1/2 text-center md:text-left">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
@@ -35,7 +35,7 @@ export default function AboutPage() {
               Explore Our Services
             </a>
           </div>
-         {/* <div className="w-full md:w-1/2 mt-8 md:mt-0">
+         <div className="w-full md:w-1/2 mt-8 md:mt-0">
             <Image
               src="/books3.jpeg"
               alt="Books Collection"
@@ -43,10 +43,10 @@ export default function AboutPage() {
               height={400}
               className="mx-auto rounded-lg shadow-lg"
             />
-          </div>*/}
+          </div>
         </div>
-      </section>
-      <section className="bg-gray-50 py-16">
+      </section> */}
+      <section className="bg-gradient-to-r from-teal-100 to-teal-200 py-16 mt-20">
   <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-8 animate-fade-in">
     <div className="w-full md:w-1/2 mb-8 md:mb-0">
       <Image
@@ -54,32 +54,51 @@ export default function AboutPage() {
         alt="Founder Image"
         width={500}
         height={400}
-        className="rounded-lg shadow-lg mx-auto"
+        className="rounded-xl shadow-xl mx-auto md:mx-0 transition-transform hover:scale-105"
       />
     </div>
     <div className="w-full md:w-1/2 text-center md:text-left">
       <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
         Meet the <span className="text-teal-600">Founder</span>
       </h2>
-      <p className="text-lg text-gray-600 mb-6 text-justify md:text-left">
-        Fejiro Adaka, fondly known as MrzSparkles, is a sought-after Relationship
-        & Emotional Intelligence Coach, Master NLP Practitioner, and an associate
-        of the Institute of Family Engineering and Development (IFED). With over
-        100+ Singles and Couples coached, she’s on a mission to help people become
-        whole, choose wisely, and build relationships that thrive. With a dynamic
-        blend of emotional intelligence, neuroscience-based tools, faith-based
-        wisdom, and over 12 years of corporate experience, Fejiro guides high
-        achievers to transform their inner world and their most intimate
-        connections. She’s the founder of The Ask MrzSparkles Academy (TAMA), a
-        global movement transforming marriages and families, one heart at a time.
-        Fejiro is a Chartered Accountant, devoted wife to her Sparkles, and
-        intentional mom of two boys. Her core belief: "Fix the marriage, fix the
-        world."
+      <p className="text-lg text-gray-600 mb-8 text-justify md:text-left leading-loose max-w-3xl mx-auto">
+        Fejiro Adaka, fondly known as MrzSparkles, is a sought-after Relationship & Emotional Intelligence Coach, Master NLP Practitioner, and an associate of the Institute of Family Engineering and Development (IFED). With over 100+ Singles and Couples coached, she’s on a mission to help people become whole, choose wisely, and build relationships that thrive.
+With a dynamic blend of emotional intelligence, neuroscience-based tools, faith-based wisdom, and over 12 years of corporate experience, Fejiro guides high achievers to transform their inner world and their most intimate connections.
+She’s the founder of The Ask MrzSparkles Academy (TAMA), a global movement transforming marriages and families, one heart at a time.
+Fejiro is a Chartered Accountant, devoted wife to her Sparkles, and intentional mom of two boys. Her core belief: "Fix the marriage, fix the world."
       </p>
     </div>
   </div>
 </section>
 
+ <section className="bg-gray-50 py-16">
+  <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-8 animate-fade-in">
+    
+    <div className="w-full md:w-1/2 text-center md:text-left">
+      <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+        Our <span className="text-teal-600">Story</span>
+      </h2>
+      <p className="text-lg text-gray-600 mb-8 text-justify md:text-left leading-loose max-w-3xl mx-auto">
+       From my formative years, I didn’t realize that a successful marriage required strategic navigation. I believed love alone could sustain us into our 50th anniversary. But by year two, I was faced with a stark reality; marriage was far from the dreamy bliss I had imagined.
+Life’s distractions, though genuine, created distance in our bond and intimacy. I saw I had embraced a flawed belief system and needed a mindset shift.
+In the early years, I often cried, frustrated by unmet expectations and communication struggles with my husband. By 2014, though I was a self-proclaimed "lover girl," our dream of harmony seemed unreachable. We talked often, yet lacked true connection, affecting both marriage and personal well-being.
+Through growth and wisdom, we embarked on a transformative journey and we’re still on this blissful path.
+Marriage can bring stress, fatigue, and disappointment, but your story can change. That’s why I serve as The Young Wife’s Coach, to help build and sustain solid foundations for joy-filled marriages.
+For four years, I’ve supported high-achieving professionals and seasoned couples globally, using emotional intelligence, scriptural wisdom, and science-backed methods rooted in empathy and respect. My work helps clients gain self-awareness, master themselves, understand their partners, align with their values, and improve communication, building trust, resolving conflicts, and deepening intimacy.
+
+      </p>
+    </div>
+    <div className="w-full md:w-1/2 mb-8 md:mb-0">
+      <Image
+        src="/ms1.png"
+        alt="Founder Image"
+        width={500}
+        height={400}
+        className="rounded-lg shadow-lg mx-auto"
+      />
+    </div>
+  </div>
+</section>
       <StatsSection />
 
 

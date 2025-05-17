@@ -1,23 +1,56 @@
 import Image from "next/image";
-import Link from "next/link"
+import Link from "next/link";
 
 const Tama: React.FC = () => {
   return (
-    <section className="bg-teal-200 py-10 duration-600 animate-fade-in">
-      <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
-        <div className="w-full md:w-full text-center md:text-center">
-          <h2 className="text-3xl font-bold mb-4"> </h2>
-          <p className="text-lg text-gray-600 mb-6 text-justify md:text-left">
-              At TAMA, we help ambitious professionals and business owners heal from within, master emotional patterns, and 
-              create lasting love because a thriving marriage starts with a transformed mindset.
-              If you're seeking to prepare for marriage, navigating relationship challenges or simply.. 
-              <span><Link href='/about' className="text-teal-500"> Read More.. </Link> </span> </p>
-          
+    <section className=" py-16">
+      <div className="container mx-auto px-6 max-w-5xl">
+        <div className="bg-white rounded-3xl shadow-lg p-5 flex flex-col md:flex-row gap-10 animate-fade-in">
+          <div className="flex-1 text-center md:text-center">
+            <h2 className="text-4xl font-extrabold text-teal-700 mb-3 tracking-tight">
+              at <span className="text-teal-900">TAMA</span>
+            </h2>
+            <p className="text-gray-700 text-lg leading-relaxed mb-8">
+              We help ambitious professionals and business owners heal from within, master emotional patterns, and create lasting love because a thriving marriage starts with a transformed mindset.
+              If you're seeking to prepare for marriage, navigating relationship challenges or simply..
+            </p>
+            {/*<Link
+              href="/about"
+              className="inline-block bg-teal-700 text-white px-8 py-3 rounded-full font-semibold shadow-md hover:bg-teal-800 transition-colors duration-300"
+            >
+              Read More
+            </Link>*/}
+          </div>
+
+          {/* Optional image section - uncomment and update if needed */}
+           {/*<div className="flex-1">
+            <Image
+              src="/sparkles3.png"
+              alt="Books Collection"
+              width={350}
+              height={350}
+              className="rounded-2xl shadow-md mx-auto"
+              priority
+            />
+          </div> */}
         </div>
-        {/*<div className="w-full md:w-1/2 mt-8 md:mt-0">
-          <Image src="/books3.jpeg" alt="Books Collection" width={300} height={300} className="mx-auto" />
-        </div>*/}
       </div>
+
+      <style jsx>{`
+        @keyframes fade-in {
+          from {
+            opacity: 0;
+            transform: translateY(20px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+        .animate-fade-in {
+          animation: fade-in 0.7s ease forwards;
+        }
+      `}</style>
     </section>
   );
 };

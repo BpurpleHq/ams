@@ -2,6 +2,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import CustomButton from '/components/CustomButton'
+
 export const metadata = {
   title: 'AskMrzSparkles | Books',
 };
@@ -17,11 +19,20 @@ const page = () => {
       </section>
       
 
-      <section className="bg-white py-16">
+      <section className="bg-white py-10">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center duration-600 animate-fade-in">
-       <div className="w-full md:w-1/2 mt-8 md:mt-0">
-          <Image src="/books3.jpeg" alt="Books Collection" width={300} height={300} className="mx-auto" />
-        </div>
+       
+       <div className="w-full md:w-1/2 ml-10 animate-fade-in" style={{ animationDelay: '200ms' }}>
+          <Image
+            src="/oneness.png"
+            alt="Books Collection"
+            width={450}
+            height={450}
+            className="rounded-3xl shadow-lg mx-auto md:mx-0"
+            priority
+          />
+        </div> 
+
         <div className="w-full md:w-1/2 text-center md:text-left">
           <h2 className="text-3xl font-bold mb-4">In the Pursuit for Oneness</h2>
           <p className="text-lg text-gray-600 mb-6 text-justify md:text-left">
@@ -30,12 +41,16 @@ const page = () => {
           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
-           <Link href='https://selar.co/intimacywbr'> 
-            <button className="bg-teal-500 text-white px-6 py-3 rounded-full hover:bg-teal-600">
-            Order Book
-          </button>
 
-       </Link> 
+        <Link href='https://selar.co/intimacywbr'>  {/**changed the button name and url **/}
+        <CustomButton
+          title='Order Book..'
+          btnType='button'
+          containerStyles='bg-teal-400 py-2 px-5 rounded-lg hover:bg-teal-700'
+          textStyles='text-white font-medium hover:text-white'
+        />
+      </Link>
+  
         </div>
       
       </div>
@@ -51,16 +66,28 @@ const page = () => {
           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
-           <Link href='https://selar.co/intimacywbr'> 
-            <button className="bg-teal-500 text-white px-6 py-3 rounded-full hover:bg-teal-600">
-            Order Book
-          </button>
-
-       </Link> 
+        
+        <Link href='https://selar.co/intimacywbr'>  {/**changed the button name and url **/}
+        <CustomButton
+          title='Order Book..'
+          btnType='button'
+          containerStyles='bg-teal-400 py-2 px-5 rounded-lg hover:bg-teal-700'
+          textStyles='text-white font-medium hover:text-white'
+        />
+      </Link>
+           
         </div>
-        <div className="w-full md:w-1/2 mt-8 md:mt-0">
-          <Image src="/books3.jpeg" alt="Books Collection" width={300} height={300} className="mx-auto" />
-        </div>
+         <div className="w-full md:w-1/2 ml-7 mt-8 md:mt-0 animate-fade-in" style={{ animationDelay: '200ms' }}>
+          <Image
+            src="/heywife.jpg"
+            alt="Books Collection"
+            width={450}
+            height={450}
+            className="rounded-3xl shadow-lg mx-auto md:mx-0"
+            priority
+          />
+        </div> 
+       
        
       </div>
     </section>

@@ -36,7 +36,7 @@ export const menuLinks = [
         url: '/resources',
         dropdownItems: [
       { label: 'Books', href: '/resources/books' },
-      { label: 'Courses', href: '/resources/courses' },
+      // { label: 'Courses', href: '/resources/courses' },
       { label: 'Testimonial', href: '/resources/testimonial' },
       
     ],
@@ -57,17 +57,17 @@ export const footerLinks = [
     title: "Quick Links",
     links: [
       { title: "About", url: "/about" },
-      { title: "Work with Me", url: "/faq" },
-      { title: "Resources", url: "/faq" },
-      { title: "Events", url: "/faq" },
+      { title: "Work with Me", url: "/services" },
+      { title: "Resources", url: "/resources" },
+      { title: "Events", url: "/events" },
     ],
   },
   {
     title: "Books",
     links: [
-      { title: "Communities", url: "/community" },
-      { title: "Courses", url: "/courses" },
-      { title: "Contact Us", url: "/faq/ask-a-question" },
+      { title: "Communities", url: "https://tr.ee/moO-e9K5LR" },
+      { title: "Books", url: "/resources/books" },
+      { title: "Contact Us", url: "/contact" },
     ],
   },
 
@@ -76,9 +76,9 @@ export const footerLinks = [
     links: [
 
       { title: "Book a Meeting", url: "#" },
-      { title: "+234 123 456 7890", url: "#" },
+      { title: "+234 706 223 3111", url: "#" },
       { title: "info@askmrzsparkles.com", url: "#" },
-      { title: "Send a Message", url: "#" },
+      { title: "Send a Message", url: "/contact" },
 
     ],
   },
@@ -108,22 +108,54 @@ export const metrics = [
 
 export const services = [
   {
-    title: "Singles Coaching, Counseling & Therapy (Become Whole, Choose Better, Build Longer)",
-    description: "Before building a life with someone else, you must first build a life within yourself. Whether you are single and waiting, dating or engaged to be married, I’m here to hold your hand through this phase.If you're a purpose-driven single ambitious, growth-focused, and unwilling to settle for less, this is your space. If you find yourself wondering....",
+    title: "Singles Coaching, Counseling & Therapy",
+    subtitle: "(Become Whole, Choose Better, Build Longer)",
+    description: "Before building a life with someone else, you must first build a life within yourself. Whether you are single and waiting, dating or engaged to be married, I’m here to hold your hand through this phase.If you're a purpose-driven single ambitious....",
     image: "/singlepeeps.png",
   },
   {
-    title: "Couples Coaching, Counselling & Therapy (Reconnect. Revive. Reinforce).",
-    description: "When two lives come together, the journey doesn’t stop at the - I do. It’s just the beginning. Even the best of us can lose sight of what brought us together when life, work, and responsibilities take over.Whether you wish to apply alone or with your Spouse, I am here to guide you through this phase. Its possible you might be feeling...",
+    title: "Couples Coaching, Counselling & Therapy",
+    subtitle: "(Reconnect. Revive. Reinforce)",
+    description: "When two lives come together, the journey doesn’t stop at the - I do. It’s just the beginning. Even the best of us can lose sight of what brought us together when life, work, and responsibilities take over.Whether you wish to apply alone or with your Spouse...",
     image: "/couple.png",
   },
   {
-    title: "Premarital Coaching Program (PCP) Build a Strong Foundation Before Saying - I Do",
-    description: "Premarital sessions with MrzSparkles is not a program taken to tick a box that you have done the premarital classes, it is a life changing experience created to open you up to the reality of who you are, the partner you have chosen for marriage and the kind of relationship you currently have....",
+    title: "Premarital Coaching Program (PCP)",
+    subtitle: "(Build a Strong Foundation Before Saying - I Do)",
+    description: "Premarital sessions with MrzSparkles is not a program taken to tick a box that you have done the premarital classes, it is a life changing experience created to open you up to the reality of who you are, the partner you have chosen for marriage and the kind ....",
     image: "/dating.png",
   },
   {
-    title: "Marriage Health Check (MCH)- (Assess. Adjust. Elevate)",
+    title: "Marriage Health Check (MCH)",
+    subtitle: "(Assess. Adjust. Elevate)",
+    description: "Is your marriage thriving or just surviving? A Sparkling marriage needs continuous care and attention to flourish and the best way to achieve growth in marriage is to learn to pause and reflect on where you are, where you want to go, and what needs to be adjusted for growth...",
+    image: "/family.png",
+  },
+ 
+];
+
+export const fullservices = [
+  {
+    title: "Singles Coaching, Counseling & Therapy",
+    subtitle: "(Become Whole, Choose Better, Build Longer)",
+    description: "Before building a life with someone else, you must first build a life within yourself. Whether you are single and waiting, dating or engaged to be married, I’m here to hold your hand through this phase.If you're a purpose-driven single ambitious....",
+    image: "/singlepeeps.png",
+  },
+  {
+    title: "Couples Coaching, Counselling & Therapy",
+    subtitle: "(Reconnect. Revive. Reinforce)",
+    description: "When two lives come together, the journey doesn’t stop at the - I do. It’s just the beginning. Even the best of us can lose sight of what brought us together when life, work, and responsibilities take over.Whether you wish to apply alone or with your Spouse...",
+    image: "/couple.png",
+  },
+  {
+    title: "Premarital Coaching Program (PCP)",
+    subtitle: "(Build a Strong Foundation Before Saying - I Do)",
+    description: "Premarital sessions with MrzSparkles is not a program taken to tick a box that you have done the premarital classes, it is a life changing experience created to open you up to the reality of who you are, the partner you have chosen for marriage and the kind ....",
+    image: "/dating.png",
+  },
+  {
+    title: "Marriage Health Check (MCH)",
+    subtitle: "(Assess. Adjust. Elevate)",
     description: "Is your marriage thriving or just surviving? A Sparkling marriage needs continuous care and attention to flourish and the best way to achieve growth in marriage is to learn to pause and reflect on where you are, where you want to go, and what needs to be adjusted for growth...",
     image: "/family.png",
   },
@@ -131,43 +163,12 @@ export const services = [
 ];
 
 
-export const servicefull = [
-    {
-        id: 1,
-        title: 'Singles Coaching, Counseling & Therapy (Become Whole, Choose Better, Build Longer)',
-        description: 'Before building a life with someone else, you must first build a life within yourself. Whether you are single'
-    },
-    {
-        id: 2,
-        title: 'Couples Coaching, Counselling & Therapy (Reconnect. Revive. Reinforce)',
-        description: 'When two lives come together, the journey doesn',
-    },
-    {
-        id: 3,
-        
-        title: 'Artificial Intelligence',
-        description: 'Introducing our AI Tools Training Bootcamp – your passport to unlocking the potential of artificial intelligence! Led by seasoned AI experts, our intensive program offers hands-on training with cutting-edge tools and techniques essential for navigating the AI landscape. Whether you are a beginner or an experienced professional, dive into the world of machine learning, deep learning, and natural language processing.',
-    },
-
-    {
-        id: 4,
-        
-        title: 'Artificial Intelligence',
-        description: 'Introducing our AI Tools Training Bootcamp – your passport to unlocking the potential of artificial intelligence! Led by seasoned AI experts, our intensive program offers hands-on training with cutting-edge tools and techniques essential for navigating the AI landscape. Whether you are a beginner or an experienced professional, dive into the world of machine learning, deep learning, and natural language processing.',
-    }
-];
-
-
-
-
-
-
-
 export const testimonial = [
     {
+        
         id: 1,
-        quote: 'I came in hoping for someone balanced and objective, and my first session with MrzSparkles was a big win. It felt so relieving to talk openly about my marriage without feeling judged. She listened attentively and offered practical, down-to-earth guidance. Since then, there’s been real improvement. My wife and I now appreciate our differences better, and I’ve picked up valuable insights I can apply in our marriage. Sometimes, it just helps to have what you know reaffirmed by someone else.',
-        name: 'Paul, UK',
+        quote: 'I wasnt sure I would get much value from the session, but it turned out to be a good experience. I learnt new things about my partner, especially the importance of understanding her love languages, cultural beliefs, and specific traits I need to pay attention to and improve on.',
+        name: 'E.N. Port Harcourt',
        
     },
     {
@@ -180,10 +181,11 @@ export const testimonial = [
 ];
 
 export const alltestimonial = [
-    {
+    {   
         id: 1,
         quote: 'I came in hoping for someone balanced and objective, and my first session with MrzSparkles was a big win. It felt so relieving to talk openly about my marriage without feeling judged. She listened attentively and offered practical, down-to-earth guidance. Since then, there’s been real improvement. My wife and I now appreciate our differences better, and I’ve picked up valuable insights I can apply in our marriage. Sometimes, it just helps to have what you know reaffirmed by someone else.',
         name: 'Paul, UK',
+        
        
     },
     {

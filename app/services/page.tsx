@@ -27,27 +27,28 @@ const Page = () => {
             style={{ animationDelay: `${index * 150}ms` }}
           >
             {/* Text Content */}
-            <div className="w-full md:w-1/2 text-center md:text-left">
+            <div className="w-full md:w-1/2 text-left md:text-left">
               <h2 className="text-3xl font-bold mb-4">{service.title}</h2>
               <p className="italic text-teal-600 mb-6">{service.subtitle}</p>
-              <p className="text-gray-700 mb-8 leading-relaxed whitespace-pre-line">
+              <p className="text-gray-700 mb-8 leading-loose whitespace-pre-line">
                 Before building a life with someone else, you must first build a life within yourself. 
                 Whether you are single and waiting, dating or engaged to be married, I’m here to hold your hand through this phase.
                 If you're a purpose-driven single ambitious, growth-focused, and unwilling to settle for less, this is your space. 
                 If you find yourself wondering. </p>
-              <p className="text-gray-700"> "Am I truly ready for the kind of love I desire?"</p>
-              <p className="text-gray-700"> "Why do I keep attracting relationships that drain instead of sustain me?"</p>
-              <p className="text-gray-700"> "Can I heal from my past without losing hope for my future?"</p>
-              <p className="text-gray-700"> "How do I stay true to myself while allowing love to find me?"</p>
-              <p className="text-gray-700 mb-8"> “Am I making the right choice of a partner?”</p>
-              <p className="text-gray-700 mb-8 leading-relaxed whitespace-pre-line">
+              <p className="text-gray-700 leading-loose "> "Am I truly ready for the kind of love I desire?"</p>
+              <p className="text-gray-700 leading-loose "> "Why do I keep attracting relationships that drain instead of sustain me?"</p>
+              <p className="text-gray-700 leading-loose "> "Can I heal from my past without losing hope for my future?"</p>
+              <p className="text-gray-700 leading-loose "> "How do I stay true to myself while allowing love to find me?"</p>
+              <p className="text-gray-700 mb-8 leading-loose "> “Am I making the right choice of a partner?”</p>
+              <p className="text-gray-700 mb-8 leading-loose  whitespace-pre-line">
                 These are not small questions, they are signs that you are ready for deeper answers.
                 Through the lens of Emotional Intelligence and Mind Mastery, I help growth focused Singles like you:
                 Heal hidden emotional wounds that silently shape your relationship patterns.Grow into a grounded, self-mastered version 
                 of yourself that naturally attracts healthy love. Choose partners aligned with your values, not just your emotions.
               Build relationships rooted in connection, clarity, and longevity, not just chemistry.
-                This is not about rushing you into a relationship. It’s about preparing you for one that lasts because it’s built on the right foundation: YOU.
-                You deserve a relationship that mirrors your growth, not magnifies your gaps.
+                
+                <p className="text-gray-700 leading-loose "> This is not about rushing you into a relationship. It’s about preparing you for one that lasts because it’s built on the right foundation: YOU.
+                You deserve a relationship that mirrors your growth, not magnifies your gaps. </p>
                 The journey to your best relationship begins with becoming your best self.
                 Let's walk it together. Book a session with me and take your first bold step toward wholeness, wisdom, and love that thrives. </p>
 

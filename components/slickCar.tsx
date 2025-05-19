@@ -8,6 +8,7 @@ const slides = [
   {
     src: '/ms3.jpeg',
     alt: 'The Inter',
+    prompt: '',
     title: 'Build Lasting Relationship and Marriage',
     description: 'Transform your inner world and build relationships you truly deserve using proven emotional and connection frameworks. No more chasing validation, sacrificing your peace, or losing your sense of worth.',
     //cta: 'Join the Course',
@@ -22,21 +23,23 @@ const slides = [
   },
   {
     src: '/sliderimage.jpeg',
-    alt: 'Nothing',
-    title: 'Deepen your Connections',
-    description: 'Transform your inner world and build relationships you truly deserve using proven emotional and connection frameworks. No more chasing validation, sacrificing your peace, or losing your sense of worth.',
-    cta: 'Explore Services',
-    link: '/services',
+    alt: 'LAB',
+    prompt: 'Coming Soon',
+    title: 'Love Accelerator Bootcamp (LAB)',
+    description: 'The Love Accelerator Bootcamp (LAB) is a transformative 3-day virtual bootcamp designed to uncover the beliefs and patterns that may be limiting your ability to attract and maintain an ideal relationship. ',
+    cta: 'Join the Waitlist',
+    link: '#',
     cta2: 'Contact Us',
     link2: '/contact',
   },
   {
     src: '/sliderimage2.jpeg',
-    alt: 'Product Development',
-    title: 'Master your Emotions',
-    description: 'Transform your inner world and build relationships you truly deserve using proven emotional and connection frameworks. No more chasing validation, sacrificing your peace, or losing your sense of worth.',
-    cta: 'Explore Services',
-    link: '/services',
+    alt: '3C Masterclass',
+    prompt: 'Coming Soon',
+    title: 'Couples Reconnect (3Cs Masterclass)',
+    description: 'An in-depth program aimed at helping married couples overcome barriers to deep connection, effective communication, and peaceful conflict resolution.',
+    cta: 'Join the Waitlist',
+    link: '#',
     cta2: 'Contact Us',
     link2: '/contact',
   },
@@ -80,34 +83,37 @@ const Carousels: React.FC = () => {
             <div className="absolute inset-0 bg-black bg-opacity-40"></div>
 
             {/* Content */}
-            <div className="absolute inset-0 flex flex-col justify-center px-6 md:px-20 items-start text-left">
-              <h2 className="text-3xl md:text-6xl font-bold text-white mb-4 drop-shadow-lg max-w-xl leading-tight">
-                {slide.title}
-              </h2>
-              <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mb-8 drop-shadow-md">
-                {slide.description}
+          <div className="absolute inset-0 mt-10 flex flex-col justify-center px-6 md:px-20 items-start text-left animate-fade-in">
+            {slide.prompt && (
+              <p className="text-lg md:text-xl text-teal-300 font-semibold mb-2 tracking-wide uppercase drop-shadow-lg">
+                {slide.prompt}
               </p>
-              <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0 max-w-md">
-               
-                <Link href={slide.link}>  {/**changed the button name and url **/}
-              <CustomButton
-                title={slide.cta}
-                btnType='button'
-                containerStyles='bg-teal-400 py-2 px-5 rounded-lg hover:bg-teal-700'
-                textStyles='text-white font-medium hover:text-white'
-              />
+            )}
+            <h2 className="text-3xl md:text-6xl font-extrabold text-white mb-4 drop-shadow-2xl max-w-2xl leading-tight">
+              {slide.title}
+            </h2>
+            <p className="text-lg md:text-2xl text-gray-100 max-w-3xl mb-8 drop-shadow-md">
+              {slide.description}
+            </p>
+            <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0 max-w-md">
+              <Link href={slide.link}>
+                <CustomButton
+                  title={slide.cta}
+                  btnType="button"
+                  containerStyles="bg-teal-500 py-3 px-7 rounded-full hover:bg-teal-700 shadow-lg transition"
+                  textStyles="text-white font-semibold"
+                />
               </Link>
-              <Link href={slide.link2}>  {/**changed the button name and url **/}
-              <CustomButton
-                title={slide.cta2}
-                btnType='button'
-                containerStyles='bg-white py-2 px-5 rounded-lg hover:bg-teal-700'
-                textStyles='text-teal-600 font-medium hover:text-white'
-              />
+              <Link href={slide.link2}>
+                <CustomButton
+                  title={slide.cta2}
+                  btnType="button"
+                  containerStyles="bg-white py-3 px-7 rounded-full hover:bg-teal-500 shadow-lg transition border border-teal-500"
+                  textStyles="text-teal-500 font-semibold hover:text-white"
+                />
               </Link>
-               
-              </div>
             </div>
+          </div>
           </div>
         ))}
       </div>

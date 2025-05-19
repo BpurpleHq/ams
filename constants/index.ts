@@ -138,27 +138,27 @@ export const fullservices = [
   {
     title: "Singles Coaching, Counseling & Therapy",
     subtitle: "(Become Whole, Choose Better, Build Longer)",
-    description: "Before building a life with someone else, you must first build a life within yourself. Whether you are single and waiting, dating or engaged to be married, I’m here to hold your hand through this phase.If you're a purpose-driven single ambitious....",
+    // description: "Before building a life with someone else, you must first build a life within yourself. Whether you are single and waiting, dating or engaged to be married, I’m here to hold your hand through this phase.If you're a purpose-driven single ambitious....",
     image: "/singlepeeps.png",
   },
-  {
-    title: "Couples Coaching, Counselling & Therapy",
-    subtitle: "(Reconnect. Revive. Reinforce)",
-    description: "When two lives come together, the journey doesn’t stop at the - I do. It’s just the beginning. Even the best of us can lose sight of what brought us together when life, work, and responsibilities take over.Whether you wish to apply alone or with your Spouse...",
-    image: "/couple.png",
-  },
-  {
-    title: "Premarital Coaching Program (PCP)",
-    subtitle: "(Build a Strong Foundation Before Saying - I Do)",
-    description: "Premarital sessions with MrzSparkles is not a program taken to tick a box that you have done the premarital classes, it is a life changing experience created to open you up to the reality of who you are, the partner you have chosen for marriage and the kind ....",
-    image: "/dating.png",
-  },
-  {
-    title: "Marriage Health Check (MCH)",
-    subtitle: "(Assess. Adjust. Elevate)",
-    description: "Is your marriage thriving or just surviving? A Sparkling marriage needs continuous care and attention to flourish and the best way to achieve growth in marriage is to learn to pause and reflect on where you are, where you want to go, and what needs to be adjusted for growth...",
-    image: "/family.png",
-  },
+  // {
+  //   title: "Couples Coaching, Counselling & Therapy",
+  //   subtitle: "(Reconnect. Revive. Reinforce)",
+  //   description: "When two lives come together, the journey doesn’t stop at the - I do. It’s just the beginning. Even the best of us can lose sight of what brought us together when life, work, and responsibilities take over.Whether you wish to apply alone or with your Spouse...",
+  //   image: "/couple.png",
+  // },
+  // {
+  //   title: "Premarital Coaching Program (PCP)",
+  //   subtitle: "(Build a Strong Foundation Before Saying - I Do)",
+  //   description: "Premarital sessions with MrzSparkles is not a program taken to tick a box that you have done the premarital classes, it is a life changing experience created to open you up to the reality of who you are, the partner you have chosen for marriage and the kind ....",
+  //   image: "/dating.png",
+  // },
+  // {
+  //   title: "Marriage Health Check (MCH)",
+  //   subtitle: "(Assess. Adjust. Elevate)",
+  //   description: "Is your marriage thriving or just surviving? A Sparkling marriage needs continuous care and attention to flourish and the best way to achieve growth in marriage is to learn to pause and reflect on where you are, where you want to go, and what needs to be adjusted for growth...",
+  //   image: "/family.png",
+  // },
  
 ];
 

@@ -103,12 +103,24 @@ export const footerLinks = [
     ],
   },
   {
-    title: "Communities",
+    title: "Newletters",
     links: [
       { title: "The Singles Tribe", url: "/singlestribe" },
       { title: "The Couples Tribe", url: "/couplestribe" },
-      { title: "The Forge", url: "https://tr.ee/moO-e9K5LR" },
+
      
+    ],
+  },
+
+   {
+    title: "Communities",
+    links: [
+
+      { title: "Sparkling Wifes", url: "https://selar.com/theswc" },
+      { title: "Singles Tribe", url: "#" },
+      { title: "Couples", url: "#" },
+      
+
     ],
   },
 
@@ -123,6 +135,10 @@ export const footerLinks = [
 
     ],
   },
+
+  
+ 
+
 // {
 //     title: "Subscribe",
 //     links: [

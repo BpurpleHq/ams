@@ -192,7 +192,7 @@ Book your session today. Let’s rebuild from the inside out.
         </div>
       </section>
 
-      <section className="bg-teal-100 container mx-auto px-6 py-16 md:py-24">
+      <section className="bg-teal-100 container mx-auto px-6 py-16 md:py-24 mb-10">
         {/* Flex container for responsive layout */}
         <div className="flex flex-col md:flex-row gap-12 items-center">
           {/* Text Content */}

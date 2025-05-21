@@ -3,6 +3,7 @@ import { Darker_Grotesque } from 'next/font/google';
 import Head from 'next/head';
 import Nav from '@/components/msnav';
 import Footer from '@/components/Footer';
+import NewsletterSection from '@/components/msnewsletter';
 
 const darkerGrotesque = Darker_Grotesque({
   subsets: ['latin'],
@@ -25,6 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="font-Lato">
         <Nav />
         {children}
+        <NewsletterSection />
         <Footer />
       </body>
     </html>

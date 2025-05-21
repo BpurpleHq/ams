@@ -135,23 +135,7 @@ const Page = () => {
         </div>
       </section>
 
-      {/* ConvertKit Newsletter Section */}
-      <section className="bg-teal-100 py-16">
-        <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-teal-900 mb-4">
-            Join Our Newsletter
-          </h2>
-          <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-            Stay updated with tips, insights, and exclusive content to strengthen your relationships.
-          </p>
-          <div id="convertkit-form" className="convertkit-form max-w-md mx-auto"></div>
-          <Script
-            src="https://app.convertkit.com/forms/1234567/subscriptions" // Replace with your actual ConvertKit form URL
-            strategy="afterInteractive"
-            data-uid="1234567" // Replace with your actual form ID
-          />
-        </div>
-      </section>
+      
     </main>
   );
 };

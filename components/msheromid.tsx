@@ -25,7 +25,7 @@ const HeroSection: React.FC = () => {
           {/* Text Section */}
           <div className="w-full md:w-1/2 space-y-6">
             <h1 className="text-4xl md:text-5xl font-extrabold text-teal-900 leading-tight">
-              Navigate Relationships with{" "}
+              Navigate Your Relationships with{" "}
               <span className="text-teal-600">Confidence & Clarity</span>
             </h1>
             <p className="text-lg text-gray-700 leading-relaxed">

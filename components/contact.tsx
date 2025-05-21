@@ -1,3 +1,108 @@
+"use client";
+
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { Mail, Phone, Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+
+const Contact: React.FC = () => {
+  const handleEmailClick = () => {
+    window.location.href = "mailto:info@askmrzsparkles.com"; // Replace with your actual email address
+  };
+
+  return (
+    <div className="h-screen grid grid-cols-1 md:grid-cols-2 bg-gray-50 mb-10">
+      {/* Left Column: Image */}
+      <div className="relative">
+        <Image
+          src="/SINGLESPIC1.png" // Replace with your actual image path
+          alt="Contact us illustration"
+          fill
+          className="object-cover"
+          priority
+        />
+      </div>
+
+      {/* Right Column: Contact Elements */}
+      <div className="flex flex-col items-center justify-center gap-6 bg-teal-100 p-6">
+        {/* Mail Icon */}
+        <Mail
+          className="w-16 h-16 md:w-20 md:h-20 text-teal-600"
+          aria-hidden="true"
+        />
+
+        {/* Phone Number */}
+        <a
+          href="tel:+234 706 223 3111" // Replace with your actual phone number
+          className="text-lg md:text-xl text-gray-900 hover:text-teal-600 transition-colors"
+          aria-label="Call us"
+        >
+          +234 706 223 3111
+        </a>
+
+        {/* Social Media Icons */}
+        <div className="flex gap-4">
+          <Link
+            href="https://facebook.com/your-page" 
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit our Facebook page"
+          >
+            <Facebook
+              className="w-8 h-8 md:w-10 md:h-10 text-teal-600 hover:text-teal-700 transition-colors"
+              aria-hidden="true"
+            />
+          </Link>
+          <Link
+            href="https://instagram.com/your-page" 
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit our Instagram page"
+          >
+            <Instagram
+              className="w-8 h-8 md:w-10 md:h-10 text-teal-600 hover:text-teal-700 transition-colors"
+              aria-hidden="true"
+            />
+          </Link>
+          <Link
+            href="https://linkedin.com/company/your-page" 
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit our LinkedIn page"
+          >
+            <Linkedin
+              className="w-8 h-8 md:w-10 md:h-10 text-teal-600 hover:text-teal-700 transition-colors"
+              aria-hidden="true"
+            />
+          </Link>
+          <Link
+            href="https://twitter.com/your-page" 
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit our Twitter page"
+          >
+            <Twitter
+              className="w-8 h-8 md:w-10 md:h-10 text-teal-600 hover:text-teal-700 transition-colors"
+              aria-hidden="true"
+            />
+          </Link>
+        </div>
+
+        {/* Contact Button */}
+        <button
+          onClick={handleEmailClick}
+          className="bg-teal-500 hover:bg-teal-600 px-8 py-4 rounded-full text-lg md:text-xl text-white font-semibold shadow-md transition-transform transform hover:scale-105"
+          aria-label="Send us an email"
+        >
+          Contact Us
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export default Contact;
+
 
 
 

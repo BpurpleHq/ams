@@ -9,7 +9,7 @@ const TestimonialsSection: React.FC = () => {
     <section
       className="relative py-20 bg-gray-900 bg-cover bg-center"
       style={{
-        backgroundImage: `url('/slideimg3.png')`,
+        backgroundImage: `url('/ms3.jpeg')`,
       }}
     >
       {/* Overlay */}

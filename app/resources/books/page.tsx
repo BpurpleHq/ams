@@ -1,150 +1,159 @@
 
-import React from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
-import CustomButton from '@/components/CustomButton'
+
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import Script from "next/script";
+import CustomButton from "@/components/CustomButton";
 
 export const metadata = {
-  title: 'AskMrzSparkles | Books',
+  title: "AskMrzSparkles | Books",
 };
 
-const page = () => {
+const Page = () => {
   return (
-    <div>
-      <section className='sm:px-16 px-6 lg:py-10 py-4'>
-       <div>
-            <h2 className='text-primary text-headline-5 text-center lg:text-start lg:text-headline-5 mt-10 lg:mt-0'> </h2>
-            
-          </div>    
+    <main className="relative w-full bg-gray-50 min-h-screen">
+      {/* Hero Section */}
+      <section className="container mx-auto px-6 py-16 md:py-24">
+        <h1 className="text-4xl md:text-5xl font-extrabold text-teal-900 text-center mb-8">
+          Explore Our Books
+        </h1>
+        <p className="text-lg text-gray-600 text-center max-w-2xl mx-auto">
+          Discover resources to strengthen your relationships and personal growth with our
+          carefully crafted books.
+        </p>
       </section>
-      
 
-      <section className="bg-white py-10">
-      <div className="container mx-auto px-4 flex flex-col md:flex-row items-center duration-600 animate-fade-in">
-       
-       <div className="w-full md:w-1/2 ml-10 animate-fade-in" style={{ animationDelay: '200ms' }}>
-          <Image
-            src="/oneness.png"
-            alt="Books Collection"
-            width={450}
-            height={450}
-            className="rounded-3xl shadow-lg mx-auto md:mx-0"
-            priority
-          />
-        </div> 
-
-        <div className="w-full md:w-1/2 text-center md:text-left">
-          <h2 className="text-3xl font-bold mb-4">In the Pursuit for Oneness</h2>
-          <p className="text-lg text-gray-600 mb-8 text-justify md:text-left leading-loose max-w-3xl mx-auto">
-          Have you ever found yourself asking, “How do I sustain the spark in my marriage?” You're not alone, and the answer 
-          lies within these pages. In Pursuit of Oneness is more than just a book; it’s your roadmap back to being deeply connected 
-          and truly seen by your partner. </p>
-          <p className="text-lg text-gray-600 mb-8 text-justify md:text-left leading-loose max-w-3xl mx-auto">
-          With practical and heart-warming tips you can easily weave into your weekly routine, 
-          you’ll discover how to rekindle your connection, revive meaningful communication, and become simply irresistible to your spouse.
-          Whether you're longing to reignite the spark or seeking to elevate the love you already share, this book is your guide, 
-          and the perfect gift for couples ready to reconnect and rediscover the magic of oneness.
-
-          </p>
-
-        <Link href='https://selar.co/intimacywbr'>  {/**changed the button name and url **/}
-        <CustomButton
-          title='Order Book..'
-          btnType='button'
-          containerStyles='bg-teal-400 py-2 px-5 rounded-lg hover:bg-teal-700'
-          textStyles='text-white font-medium hover:text-white'
-        />
-      </Link>
-  
+      {/* Book 1: In the Pursuit for Oneness */}
+      <section className="bg-white py-16">
+        <div className="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
+          <div className="w-full md:w-1/2">
+            <Image
+              src="/oneness.png"
+              alt="In the Pursuit for Oneness"
+              width={450}
+              height={450}
+              className="rounded-3xl shadow-lg object-cover w-full h-auto transition-transform transform hover:scale-105"
+              priority
+            />
+          </div>
+          <div className="w-full md:w-1/2 space-y-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-teal-900">
+              In the Pursuit for Oneness
+            </h2>
+            <p className="text-lg text-gray-600 leading-relaxed">
+              Have you ever asked, “How do I sustain the spark in my marriage?” <em>In Pursuit of Oneness</em> is your roadmap to deep connection and being truly seen by your partner.
+            </p>
+            <p className="text-lg text-gray-600 leading-relaxed">
+              With practical, heart-warming tips you can weave into your weekly routine, you’ll
+              rekindle connection, revive communication, and become irresistible to your spouse.
+              Perfect for couples ready to rediscover the magic of oneness.
+            </p>
+            <Link href="https://selar.co/intimacywbr" target="_blank" rel="noopener noreferrer">
+              <CustomButton
+                title="Order Book"
+                btnType="button"
+                containerStyles="bg-teal-500 hover:bg-teal-600 px-6 py-3 rounded-full text-white font-semibold shadow-md transition-transform transform hover:scale-105"
+                textStyles="text-base"
+              />
+            </Link>
+          </div>
         </div>
-      
-      </div>
-    </section>
+      </section>
 
-    <section className="bg-teal-100 py-16">
-      <div className="container mx-auto px-4 flex flex-col md:flex-row items-center duration-600 animate-fade-in">
-      <div className="w-full md:w-1/2 ml-7 mt-8 md:mt-0 animate-fade-in" style={{ animationDelay: '200ms' }}>
-          <Image
-            src="/heywife.jpg"
-            alt="Books Collection"
-            width={450}
-            height={450}
-            className="rounded-3xl shadow-lg mx-auto md:mx-0"
-            priority
-          />
-        </div> 
-        <div className="w-full md:w-1/2 text-center md:text-left">
-          <h2 className="text-3xl font-bold mb-4">Hey Wifey Stop- 7 damaging mistakes every young wives must avoid</h2>
-          <p className="text-lg text-gray-600 mb-8 text-justify md:text-left leading-loose max-w-3xl mx-auto">
-          There are 7 damaging mistakes you must stop making today as a Wife. If you want to kick-start your journey of staying 
-          happily married, please stop making these mistakes now and start your marriage right. </p>
-          <p className="text-lg text-gray-600 mb-8 text-justify md:text-left leading-loose max-w-3xl mx-auto">
-          This 20page ebook is a short read that reveals the simple but very common and damaging mistakes newlyWeds and 
-          Young Wives make in the early years of marriage.
-
-          </p>
-        
-        <Link href='https://selar.co/intimacywbr'>  {/**changed the button name and url **/}
-        <CustomButton
-          title='Order Book..'
-          btnType='button'
-          containerStyles='bg-teal-400 py-2 px-5 rounded-lg hover:bg-teal-700'
-          textStyles='text-white font-medium hover:text-white'
-        />
-      </Link>
-           
+      {/* Book 2: Hey Wifey Stop */}
+      <section className="bg-teal-50 py-16">
+        <div className="container mx-auto px-6 flex flex-col md:flex-row-reverse items-center gap-12">
+          <div className="w-full md:w-1/2">
+            <Image
+              src="/heywife.jpg"
+              alt="Hey Wifey Stop"
+              width={450}
+              height={450}
+              className="rounded-3xl shadow-lg object-cover w-full h-auto transition-transform transform hover:scale-105"
+              priority
+            />
+          </div>
+          <div className="w-full md:w-1/2 space-y-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-teal-900">
+              Hey Wifey Stop
+            </h2>
+            <p className="text-lg text-gray-600 leading-relaxed">
+              Discover the 7 damaging mistakes every young wife must avoid to stay happily married.
+              This 20-page eBook reveals simple but common errors newlyweds make in the early years
+              of marriage.
+            </p>
+            <p className="text-lg text-gray-600 leading-relaxed">
+              Start your marriage right by learning how to avoid these pitfalls and build a strong
+              foundation for lasting love.
+            </p>
+            <Link href="https://selar.co/intimacywbr" target="_blank" rel="noopener noreferrer">
+              <CustomButton
+                title="Order Book"
+                btnType="button"
+                containerStyles="bg-teal-500 hover:bg-teal-600 px-6 py-3 rounded-full text-white font-semibold shadow-md transition-transform transform hover:scale-105"
+                textStyles="text-base"
+              />
+            </Link>
+          </div>
         </div>
-         
-       
-       
-      </div>
-    </section>
+      </section>
 
-     <section className="bg-white py-16">
-      <div className="container mx-auto px-4 flex flex-col md:flex-row items-center duration-600 animate-fade-in">
-      <div className="w-full md:w-1/2 ml-7 mt-8 md:mt-0 animate-fade-in" style={{ animationDelay: '200ms' }}>
-          <Image
-            src="/heywife.jpg"
-            alt="Books Collection"
-            width={450}
-            height={450}
-            className="rounded-3xl shadow-lg mx-auto md:mx-0"
-            priority
-          />
-        </div> 
-       
-        <div className="w-full md:w-1/2 text-center md:text-left">
-          <h2 className="text-3xl font-bold mb-4">The Relationship Checklist</h2>
-          <p className="text-lg text-gray-600 mb-8 text-justify md:text-left leading-loose max-w-3xl mx-auto">
-          Nor allow love carry you go anywhere you nor know o.Don't date anyone until you have carefully answered these 12 crucial 
-          questions!
-          In this book, I share with you 12 vital questions every sharp single person must answer before dating to marry. 
-          Some people think the foundation of marriage is the dating season, not really. It is actually what you do, who you are 
-          and what you know before dating begins. </p>
-          <p className="text-lg text-gray-600 mb-8 text-justify md:text-left leading-loose max-w-3xl mx-auto">
-          This is a practical workbook that sets you on a journey of reflection and revelation which will ultimately launch you 
-          into being a more confident lady backed with clarity on your destination for a relationship.
-
-          </p>
-           <Link href='https://selar.co/intimacywbr'>  {/**changed the button name and url **/}
-        <CustomButton
-          title='Order Book..'
-          btnType='button'
-          containerStyles='bg-teal-400 py-2 px-5 rounded-lg hover:bg-teal-700'
-          textStyles='text-white font-medium hover:text-white'
-        />
-      </Link>
+      {/* Book 3: The Relationship Checklist */}
+      <section className="bg-white py-16">
+        <div className="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
+          <div className="w-full md:w-1/2">
+            <Image
+              src="/RelationshipChecklist.jpg"
+              alt="The Relationship Checklist"
+              width={450}
+              height={450}
+              className="rounded-3xl shadow-lg object-cover w-full h-auto transition-transform transform hover:scale-105"
+              priority
+            />
+          </div>
+          <div className="w-full md:w-1/2 space-y-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-teal-900">
+              The Relationship Checklist
+            </h2>
+            <p className="text-lg text-gray-600 leading-relaxed">
+              Don’t date anyone until you’ve answered these 12 crucial questions! <em>The Relationship Checklist</em> guides sharp singles through vital reflections before dating to marry.
+            </p>
+            <p className="text-lg text-gray-600 leading-relaxed">
+              This practical workbook sets you on a journey of clarity and confidence, ensuring you’re
+              ready for a meaningful relationship.
+            </p>
+            <Link href="https://selar.co/intimacywbr" target="_blank" rel="noopener noreferrer">
+              <CustomButton
+                title="Order Book"
+                btnType="button"
+                containerStyles="bg-teal-500 hover:bg-teal-600 px-6 py-3 rounded-full text-white font-semibold shadow-md transition-transform transform hover:scale-105"
+                textStyles="text-base"
+              />
+            </Link>
+          </div>
         </div>
-        
-       
-      </div>
-    </section>
+      </section>
 
+      {/* ConvertKit Newsletter Section */}
+      <section className="bg-teal-100 py-16">
+        <div className="container mx-auto px-6 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-teal-900 mb-4">
+            Join Our Newsletter
+          </h2>
+          <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+            Stay updated with tips, insights, and exclusive content to strengthen your relationships.
+          </p>
+          <div id="convertkit-form" className="convertkit-form max-w-md mx-auto"></div>
+          <Script
+            src="https://app.convertkit.com/forms/1234567/subscriptions" // Replace with your actual ConvertKit form URL
+            strategy="afterInteractive"
+            data-uid="1234567" // Replace with your actual form ID
+          />
+        </div>
+      </section>
+    </main>
+  );
+};
 
-
-
-    </div>
-  )
-}
-
-export default page
+export default Page;

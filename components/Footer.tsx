@@ -2,10 +2,12 @@ import { footerLinks } from '@/constants';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import Script from "next/script";
 
 const Footer = () => {
   return (
     <footer className="bg-white border-t border-gray-200">
+
       <div className="max-w-[1440px] mx-auto flex flex-wrap max-md:flex-col max-md:items-start justify-between gap-10 sm:px-16 px-6 py-12">
         {/* Logo */}
         <Link href="/" className="flex-shrink-0">
@@ -37,9 +39,9 @@ const Footer = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> 
 
-      {/* Copyright Section */}
+       {/* Copyright Section */}
       <div className="sm:px-16 px-6 py-6 bg-gray-50">
         <div className="max-w-[1440px] mx-auto flex flex-col max-md:items-start items-center">
           <p className="text-gray-600 text-sm text-center max-md:text-left">
@@ -52,3 +54,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

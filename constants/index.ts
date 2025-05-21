@@ -47,27 +47,68 @@ export const menuLinks = [
         title: 'Events',
         url: '/events',
     },
-   
-   
-
     
 ];
+
+export const slides = [
+  {
+    src: '/ms3.jpeg',
+    alt: 'The Inter',
+    prompt: '',
+    title: 'Build Lasting Relationship and Marriage',
+    description: 'Transform your inner world and build relationships you truly deserve using proven emotional and connection frameworks. No more chasing validation, sacrificing your peace, or losing your sense of worth.',
+    //cta: 'Join the Course',
+    // link: '/ai-champions',
+    // cta2: 'Contact Us',
+    // link2: '/contact',
+    cta: 'Explore Services',
+    link: '/services',
+    cta2: 'Contact Us',
+    link2: '/contact',
+
+  },
+  {
+    src: '/sliderimage.jpeg',
+    alt: 'LAB',
+    prompt: 'Coming Soon',
+    title: 'Love Accelerator Bootcamp (LAB)',
+    description: 'The Love Accelerator Bootcamp (LAB) is a transformative 3-day virtual bootcamp designed to uncover the beliefs and patterns that may be limiting your ability to attract and maintain an ideal relationship. ',
+    cta: 'Join the Waitlist',
+    link: '#',
+    cta2: 'Contact Us',
+    link2: '/contact',
+  },
+  {
+    src: '/sliderimage2.jpeg',
+    alt: '3C Masterclass',
+    prompt: 'Coming Soon',
+    title: 'Couples Reconnect (3Cs Masterclass)',
+    description: 'An in-depth program aimed at helping married couples overcome barriers to deep connection, effective communication, and peaceful conflict resolution.',
+    cta: 'Join the Waitlist',
+    link: '#',
+    cta2: 'Contact Us',
+    link2: '/contact',
+  },
+];
+
 export const footerLinks = [
     {
     title: "Quick Links",
     links: [
       { title: "About", url: "/about" },
       { title: "Work with Me", url: "/services" },
-      { title: "Resources", url: "/resources" },
       { title: "Events", url: "/events" },
+      { title: "Books", url: "/resources/books" },
+      { title: "Contact Us", url: "/contact" },
     ],
   },
   {
-    title: "Books",
+    title: "Communities",
     links: [
-      { title: "Communities", url: "https://tr.ee/moO-e9K5LR" },
-      { title: "Books", url: "/resources/books" },
-      { title: "Contact Us", url: "/contact" },
+      { title: "The Singles Tribe", url: "/singlestribe" },
+      { title: "The Couples Tribe", url: "/couplestribe" },
+      { title: "The Forge", url: "https://tr.ee/moO-e9K5LR" },
+     
     ],
   },
 
@@ -82,6 +123,16 @@ export const footerLinks = [
 
     ],
   },
+// {
+//     title: "Subscribe",
+//     links: [
+
+       
+
+//     ],
+//   },
+
+   
 ];
 
 export const metrics = [
@@ -110,26 +161,26 @@ export const services = [
   {
     title: "Singles Coaching, Counseling & Therapy",
     subtitle: "(Become Whole, Choose Better, Build Longer)",
-    description: "Before building a life with someone else, you must first build a life within yourself. Whether you are single and waiting, dating or engaged to be married, I’m here to hold your hand through this phase.If you're a purpose-driven single ambitious....",
-    image: "/singlepeeps.png",
+    description: "Before building a life with someone else, you must first build one within. Whether you’re single, dating, or engaged, this space is for purpose-driven, ambitious singles who are growth-focused and unwilling to settle. I’m here to walk with you through this phase…",
+    image: "/SINGLESPIC1.png",
   },
   {
     title: "Couples Coaching, Counselling & Therapy",
     subtitle: "(Reconnect. Revive. Reinforce)",
-    description: "When two lives come together, the journey doesn’t stop at the - I do. It’s just the beginning. Even the best of us can lose sight of what brought us together when life, work, and responsibilities take over.Whether you wish to apply alone or with your Spouse...",
-    image: "/couple.png",
+    description: "When two lives come together, the journey begins after “I do.” But life, stress, and unmet expectations can dim the spark. Whether you apply alone or with your spouse, I’m here to help you navigate this phase. ",
+    image: "/COUPLESPICS1.png",
   },
   {
     title: "Premarital Coaching Program (PCP)",
     subtitle: "(Build a Strong Foundation Before Saying - I Do)",
-    description: "Premarital sessions with MrzSparkles is not a program taken to tick a box that you have done the premarital classes, it is a life changing experience created to open you up to the reality of who you are, the partner you have chosen for marriage and the kind ....",
-    image: "/dating.png",
+    description: "Premarital sessions with MrzSparkles aren’t just a box to tick—they’re a life-changing experience designed to help you discover who you truly are, understand your partner and relationship, and equip you with tools and techniques to navigate every season and build a lasting marriage.",
+    image: "/PMPCOACHINGPICS.png"
   },
   {
     title: "Marriage Health Check (MCH)",
     subtitle: "(Assess. Adjust. Elevate)",
-    description: "Is your marriage thriving or just surviving? A Sparkling marriage needs continuous care and attention to flourish and the best way to achieve growth in marriage is to learn to pause and reflect on where you are, where you want to go, and what needs to be adjusted for growth...",
-    image: "/family.png",
+    description: "Is your marriage thriving or just surviving? A Sparkling marriage needs ongoing care—and growth begins when you pause, reflect, and adjust what’s needed to move forward together.",
+    image: "/MHCHECKPICS.png",
   },
  
 ];
@@ -139,26 +190,26 @@ export const fullservices = [
     title: "Singles Coaching, Counseling & Therapy",
     subtitle: "(Become Whole, Choose Better, Build Longer)",
     // description: "Before building a life with someone else, you must first build a life within yourself. Whether you are single and waiting, dating or engaged to be married, I’m here to hold your hand through this phase.If you're a purpose-driven single ambitious....",
-    image: "/singlepeeps.png",
+    image: "/SINGLESPIC1.png",
   },
-  // {
-  //   title: "Couples Coaching, Counselling & Therapy",
-  //   subtitle: "(Reconnect. Revive. Reinforce)",
-  //   description: "When two lives come together, the journey doesn’t stop at the - I do. It’s just the beginning. Even the best of us can lose sight of what brought us together when life, work, and responsibilities take over.Whether you wish to apply alone or with your Spouse...",
-  //   image: "/couple.png",
-  // },
-  // {
-  //   title: "Premarital Coaching Program (PCP)",
-  //   subtitle: "(Build a Strong Foundation Before Saying - I Do)",
-  //   description: "Premarital sessions with MrzSparkles is not a program taken to tick a box that you have done the premarital classes, it is a life changing experience created to open you up to the reality of who you are, the partner you have chosen for marriage and the kind ....",
-  //   image: "/dating.png",
-  // },
-  // {
-  //   title: "Marriage Health Check (MCH)",
-  //   subtitle: "(Assess. Adjust. Elevate)",
-  //   description: "Is your marriage thriving or just surviving? A Sparkling marriage needs continuous care and attention to flourish and the best way to achieve growth in marriage is to learn to pause and reflect on where you are, where you want to go, and what needs to be adjusted for growth...",
-  //   image: "/family.png",
-  // },
+  {
+    title: "Couples Coaching, Counselling & Therapy",
+    subtitle: "(Reconnect. Revive. Reinforce)",
+    //description: "When two lives come together, the journey doesn’t stop at the - I do. It’s just the beginning. Even the best of us can lose sight of what brought us together when life, work, and responsibilities take over.Whether you wish to apply alone or with your Spouse...",
+    image: "/COUPLESPICS1.png",
+  },
+  {
+    title: "Premarital Coaching Program (PCP)",
+    subtitle: "(Build a Strong Foundation Before Saying - I Do)",
+    //description: "Premarital sessions with MrzSparkles is not a program taken to tick a box that you have done the premarital classes, it is a life changing experience created to open you up to the reality of who you are, the partner you have chosen for marriage and the kind ....",
+    image: "/PMPCOACHINGPICS.png",
+  },
+  {
+    title: "Marriage Health Check (MCH)",
+    subtitle: "(Assess. Adjust. Elevate)",
+    //description: "Is your marriage thriving or just surviving? A Sparkling marriage needs continuous care and attention to flourish and the best way to achieve growth in marriage is to learn to pause and reflect on where you are, where you want to go, and what needs to be adjusted for growth...",
+    image: "/MHCHECKPICS.png",
+  },
  
 ];
 

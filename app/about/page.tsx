@@ -29,7 +29,7 @@ export default function AboutPage() {
             </p>
             <Link href="/services">
               <button
-                className="bg-teal-500 hover:bg-teal-600 px-6 py-3 rounded-full text-white font-semibold shadow-md transition-transform transform hover:scale-105"
+                className="bg-teal-500 mt-5 hover:bg-teal-600 px-6 py-3 rounded-full text-white font-semibold shadow-md transition-transform transform hover:scale-105"
               >
                 Explore Our Services
               </button>
@@ -91,7 +91,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
           <div className="w-full md:w-1/2 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-teal-900">
-              Our <span className="text-teal-600">Story</span>
+              How It  <span className="text-teal-600">Began</span>
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
               From my formative years, I didn’t realize that a successful marriage required strategic navigation. 
@@ -111,11 +111,13 @@ export default function AboutPage() {
             </p>
                <p className="text-lg text-gray-600 leading-relaxed">
               Marriage can bring stress, fatigue, and disappointment, but your story can change. 
-              That’s why I serve as The Young Wife’s Coach, to help build and sustain solid foundations for joy-filled marriages.
+              That’s why I serve a Relationship, EQ and Family Life Coach, to help build and sustain solid foundations for joy-filled marriages.
             </p>
              <p className="text-lg text-gray-600 leading-relaxed">
               For four years, I’ve supported high-achieving professionals and seasoned couples globally, using emotional intelligence, 
-              scriptural wisdom, and science-backed methods rooted in empathy and respect. My work helps clients gain self-awareness, master themselves, understand their partners, 
+              scriptural wisdom, and science-backed methods rooted in empathy and respect. </p>
+
+              <p className="text-lg text-gray-600 leading-relaxed">My work helps clients gain self-awareness, master themselves, understand their partners, 
               align with their values, and improve communication, building trust, resolving conflicts, and deepening intimacy.
             </p>
           </div>

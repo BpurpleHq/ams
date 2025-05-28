@@ -116,9 +116,9 @@ export const footerLinks = [
     title: "Communities",
     links: [
 
-      { title: "Sparkling Wifes", url: "https://selar.com/theswc" },
-      { title: "Singles Tribe", url: "#" },
-      { title: "Couples", url: "#" },
+      { title: "Sparkling Wives", url: "https://selar.com/theswc" },
+      // { title: "Singles Tribe", url: "#" },
+      // { title: "Couples", url: "#" },
       
 
     ],
@@ -130,7 +130,6 @@ export const footerLinks = [
 
       { title: "Book a Meeting", url: "#" },
       { title: "+234 706 223 3111", url: "#" },
-      { title: "info@askmrzsparkles.com", url: "#" },
       { title: "Send a Message", url: "/contact" },
 
     ],
@@ -154,19 +153,19 @@ export const footerLinks = [
 export const metrics = [
     {
         id: 1,
-        figure: '200+',
+        figure: '100+',
         title: 'Happy Clients',
         
     },
     {
         id: 2,
-        figure: '40+',
+        figure: '10+',
         title: 'Successful Program', 
         
     },
     {
         id: 3,
-        figure: '10+',
+        figure: '6+',
         title: 'Different Countries',
  
     }

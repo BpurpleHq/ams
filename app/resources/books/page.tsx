@@ -39,7 +39,7 @@ const Page = () => {
           </div>
           <div className="w-full md:w-1/2 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-teal-900">
-              In the Pursuit for Oneness
+              In Pursuit of Oneness
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
               Have you ever asked, “How do I sustain the spark in my marriage?” <em>In Pursuit of Oneness</em> is your roadmap to deep connection and being truly seen by your partner.
@@ -76,7 +76,7 @@ const Page = () => {
           </div>
           <div className="w-full md:w-1/2 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-teal-900">
-              Hey Wifey Stop
+              Hey Wifey Stop!
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
               Discover the 7 damaging mistakes every young wife must avoid to stay happily married.

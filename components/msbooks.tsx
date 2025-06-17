@@ -33,7 +33,7 @@ const BooksSection: React.FC = () => {
           {/* Image Section */}
           <div className="w-full md:w-1/2">
             <Image
-              src="/oneness.png"
+              src="/heywife.jpg"
               alt="Books Collection"
               width={350}
               height={350}

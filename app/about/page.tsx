@@ -111,7 +111,7 @@ export default function AboutPage() {
             </p>
                <p className="text-lg text-gray-600 leading-relaxed">
               Marriage can bring stress, fatigue, and disappointment, but your story can change. 
-              That’s why I serve a Relationship, EQ and Family Life Coach, to help build and sustain solid foundations for joy-filled marriages.
+              That’s why I serve as a Relationship, EQ and Family Life Coach, to help build and sustain solid foundations for joy-filled marriages.
             </p>
              <p className="text-lg text-gray-600 leading-relaxed">
               For four years, I’ve supported high-achieving professionals and seasoned couples globally, using emotional intelligence, 

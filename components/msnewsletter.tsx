@@ -19,9 +19,9 @@ const NewsletterSection: React.FC = () => {
 
         {/* CTA Buttons for Tribes */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link href="/singletribe">
+          <Link href="/singlestribe">
             <button
-              className="bg-teal-500 hover:bg-teal-600 px-8 py-4 rounded-full text-lg md:text-xl text-white font-semibold shadow-md transition-transform transform hover:scale-105"
+              className="bg-teal-500 hover:bg-teal-600 px-8 py-4 rounded-full text-lg md:text-xl text-white shadow-md transition-transform transform hover:scale-105"
               aria-label="Join our newsletter for Tribe A"
             >
               Join Singles Tribe
@@ -29,7 +29,7 @@ const NewsletterSection: React.FC = () => {
           </Link>
           <Link href="/couplestribe">
             <button
-              className="bg-transparent border-2 border-teal-500 hover:bg-teal-500 px-8 py-4 rounded-full text-lg md:text-xl text-teal-500 hover:text-white font-semibold shadow-md transition-colors"
+              className="bg-transparent border-2 border-teal-500 hover:bg-teal-500 px-8 py-4 rounded-full text-lg md:text-xl text-teal-500 hover:text-white shadow-md transition-colors"
               aria-label="Join our newsletter for Tribe B"
             >
               Join Couples Tribe

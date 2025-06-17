@@ -25,14 +25,14 @@ const Page = () => {
       </section>
 
       {/* Book 1: In the Pursuit for Oneness */}
-      <section className="bg-white py-16">
+      <section className="bg-white py-10">
         <div className="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
           <div className="w-full md:w-1/2">
             <Image
-              src="/oneness.png"
+              src="/oneness.PNG"
               alt="In the Pursuit for Oneness"
-              width={450}
-              height={450}
+              width={350}
+              height={350}
               className="rounded-3xl shadow-lg object-cover w-full h-auto transition-transform transform hover:scale-105"
               priority
             />
@@ -49,14 +49,33 @@ const Page = () => {
               rekindle connection, revive communication, and become irresistible to your spouse.
               Perfect for couples ready to rediscover the magic of oneness.
             </p>
-            <Link href="https://selar.co/intimacywbr" target="_blank" rel="noopener noreferrer">
+            <div class="items-center justify-center md:flex-row">
+            <a href="https://rhbooks.com.ng/product/in-pursuit-of-oneness/?srsltid=AfmBOoqv1PXGcuyhF4oyP6iRThugKmlYCf7d6QooJR0S9R3BF46Ysw24" target="_blank" rel="noopener noreferrer">
               <CustomButton
-                title="Order Book"
+                title="Order On Rovingheights"
                 btnType="button"
-                containerStyles="bg-teal-500 hover:bg-teal-600 px-6 py-3 rounded-full text-white font-semibold shadow-md transition-transform transform hover:scale-105"
+                containerStyles="bg-teal-50 hover:bg-teal-200 px-6 py-3 items-center text-teal-900 font-semibold shadow-md mb-5 mr-5"
                 textStyles="text-base"
               />
-            </Link>
+            </a>
+            
+            <a href="https://www.amazon.com/Pursuit-Oneness-Weekly-Affectionate-spouse/dp/B0CW17CH3M?ref_=ast_author_dp" target="_blank" rel="noopener noreferrer">
+              <CustomButton
+                title="On Amazon (Hard copy)"
+                btnType="button"
+                containerStyles="bg-teal-50 hover:bg-teal-200 px-6 py-3 items-center text-teal-900 font-semibold shadow-md mb-5"
+                textStyles="text-base"
+              />
+            </a>
+            <a href="https://selar.com/ipo2" target="_blank" rel="noopener noreferrer">
+              <CustomButton
+                title="On Selar (Delivery & Pick up options available)"
+                btnType="button"
+                containerStyles="bg-teal-50 hover:bg-teal-200 px-6 py-3 items-center text-teal-900 font-semibold shadow-md "
+                textStyles="text-base"
+              />
+            </a>
+            </div>
           </div>
         </div>
       </section>

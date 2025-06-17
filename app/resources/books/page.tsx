@@ -49,7 +49,7 @@ const Page = () => {
               rekindle connection, revive communication, and become irresistible to your spouse.
               Perfect for couples ready to rediscover the magic of oneness.
             </p>
-            <div class="items-center justify-center md:flex-row">
+            <div className="items-center justify-center md:flex-row">
             <a href="https://rhbooks.com.ng/product/in-pursuit-of-oneness/?srsltid=AfmBOoqv1PXGcuyhF4oyP6iRThugKmlYCf7d6QooJR0S9R3BF46Ysw24" target="_blank" rel="noopener noreferrer">
               <CustomButton
                 title="Order On Rovingheights"

@@ -106,7 +106,7 @@ const Page = () => {
               Start your marriage right by learning how to avoid these pitfalls and build a strong
               foundation for lasting love.
             </p>
-            <Link href="https://selar.co/intimacywbr" target="_blank" rel="noopener noreferrer">
+            <Link href="https://selar.com/wifey" target="_blank" rel="noopener noreferrer">
               <CustomButton
                 title="Order Book"
                 btnType="button"
@@ -142,7 +142,7 @@ const Page = () => {
               This practical workbook sets you on a journey of clarity and confidence, ensuring you’re
               ready for a meaningful relationship.
             </p>
-            <Link href="https://selar.co/intimacywbr" target="_blank" rel="noopener noreferrer">
+            <Link href="https://selar.com/trcbook" target="_blank" rel="noopener noreferrer">
               <CustomButton
                 title="Order Book"
                 btnType="button"

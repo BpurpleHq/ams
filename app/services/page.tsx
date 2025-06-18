@@ -107,7 +107,7 @@ Book your session today. Let’s rebuild from the inside out.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdmBzywRmxTEcroxDynnG7hDMrP2wX9Flk6OvAjfn7C4QRO9w/viewform"
+                href="https://forms.gle/CD3Y87jQyhD4BnQe7"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -164,7 +164,7 @@ Book your session today. Let’s rebuild from the inside out.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdmBzywRmxTEcroxDynnG7hDMrP2wX9Flk6OvAjfn7C4QRO9w/viewform"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfIRqoWwmJ_-59X7qHmQHKURXA5RbAq5rLcX9HTN3P-9I9e9Q/viewform?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -227,7 +227,7 @@ Book your session today. Let’s rebuild from the inside out.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdmBzywRmxTEcroxDynnG7hDMrP2wX9Flk6OvAjfn7C4QRO9w/viewform"
+                href="https://docs.google.com/forms/d/e/1FAIpQLScvJILOLZfb1zPFPq8edw6kHtQajlq5FI-sCTRp2rTmtfXigA/viewform"
                 target="_blank"
                 rel="noopener noreferrer"
               >

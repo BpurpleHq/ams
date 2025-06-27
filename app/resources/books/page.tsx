@@ -14,29 +14,30 @@ const Page = () => {
   return (
     <main className="relative w-full bg-gray-50 min-h-screen">
       {/* Hero Section */}
-      <section className="container mx-auto px-6 py-16 md:py-24">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-teal-900 text-center mb-8">
+      <section className="container mx-auto px-6 py-16 md:py-20">
+        <h1 className="text-4xl md:text-5xl font-extrabold text-teal-900 text-center mt-8 ">
           Explore Our Books
         </h1>
-        <p className="text-lg text-gray-600 text-center max-w-2xl mx-auto">
+        <p className="text-lg text-gray-600 text-center max-w-3xl mx-auto">
           Discover resources to strengthen your relationships and personal growth with our
           carefully crafted books.
         </p>
       </section>
 
       {/* Book 1: In the Pursuit for Oneness */}
-      <section className="bg-white py-10">
-        <div className="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
+      <section className="bg-white py-5">
+        <div className="container mx-auto px-6 flex flex-col md:flex-row items-center gap-6 md:gap-8">
           <div className="w-full md:w-1/2">
-            <Image
-              src="/oneness.PNG"
-              alt="In the Pursuit for Oneness"
-              width={350}
-              height={350}
-              className="rounded-3xl shadow-lg object-cover w-full h-auto transition-transform transform hover:scale-105"
-              priority
-            />
-          </div>
+      <Image
+        src="/oneness.PNG"
+        alt="In the Pursuit for Oneness"
+        width={450}
+        height={450}
+        className="rounded-3xl shadow-lg object-cover h-auto transition-transform transform hover:scale-105"
+        priority
+      />
+    </div>
+
           <div className="w-full md:w-1/2 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-teal-900">
               In Pursuit of Oneness
@@ -80,16 +81,18 @@ const Page = () => {
         </div>
       </section>
 
+      
+
       {/* Book 2: Hey Wifey Stop */}
       <section className="bg-teal-50 py-16">
-        <div className="container mx-auto px-6 flex flex-col md:flex-row-reverse items-center gap-12">
+        <div className="container mx-auto px-2 flex flex-col md:flex-row-reverse items-center gap-8">
           <div className="w-full md:w-1/2">
             <Image
               src="/heywife.jpg"
               alt="Hey Wifey Stop"
               width={450}
               height={450}
-              className="rounded-3xl shadow-lg object-cover w-full h-auto transition-transform transform hover:scale-105"
+              className="rounded-3xl shadow-lg object-cover h-auto transition-transform transform hover:scale-105"
               priority
             />
           </div>
@@ -106,33 +109,34 @@ const Page = () => {
               Start your marriage right by learning how to avoid these pitfalls and build a strong
               foundation for lasting love.
             </p>
-            <Link href="https://selar.com/wifey" target="_blank" rel="noopener noreferrer">
+        
+            <a href="https://selar.com/wifey" target="_blank" rel="noopener noreferrer">
               <CustomButton
-                title="Order Book"
+                title="Order On Selar"
                 btnType="button"
-                containerStyles="bg-teal-500 hover:bg-teal-600 px-6 py-3 rounded-full text-white font-semibold shadow-md transition-transform transform hover:scale-105"
+                containerStyles="bg-teal-100 hover:bg-teal-200 px-6 py-3 items-center text-teal-900 font-semibold shadow-md mt-8 "
                 textStyles="text-base"
               />
-            </Link>
+            </a>
           </div>
         </div>
       </section>
 
       {/* Book 3: The Relationship Checklist */}
       <section className="bg-white py-16">
-        <div className="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
+        <div className="container mx-auto px-6 flex flex-col md:flex-row items-center">
           <div className="w-full md:w-1/2">
             <Image
               src="/RelationshipChecklist.jpg"
               alt="The Relationship Checklist"
               width={450}
               height={450}
-              className="rounded-3xl shadow-lg object-cover w-full h-auto transition-transform transform hover:scale-105"
+              className="rounded-3xl shadow-lg object-cover h-auto transition-transform transform hover:scale-105"
               priority
             />
           </div>
           <div className="w-full md:w-1/2 space-y-6">
-            <h2 className="text-3xl md:text-4xl font-bold text-teal-900">
+            <h2 className="text-3xl md:text-4xl font-bold text-teal-900 mt-8">
               The Relationship Checklist
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
@@ -142,14 +146,15 @@ const Page = () => {
               This practical workbook sets you on a journey of clarity and confidence, ensuring you’re
               ready for a meaningful relationship.
             </p>
-            <Link href="https://selar.com/trcbook" target="_blank" rel="noopener noreferrer">
+            
+            <a href="https://selar.com/trcbook" target="_blank" rel="noopener noreferrer">
               <CustomButton
-                title="Order Book"
+                title="Order On Selar"
                 btnType="button"
-                containerStyles="bg-teal-500 hover:bg-teal-600 px-6 py-3 rounded-full text-white font-semibold shadow-md transition-transform transform hover:scale-105"
+                containerStyles="bg-teal-50 hover:bg-teal-200 px-6 py-3 items-center text-teal-900 font-semibold shadow-md mt-8 "
                 textStyles="text-base"
               />
-            </Link>
+            </a>
           </div>
         </div>
       </section>

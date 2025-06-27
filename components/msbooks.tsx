@@ -24,7 +24,7 @@ const BooksSection: React.FC = () => {
               <CustomButton
                 title="See More Books"
                 btnType="button"
-                containerStyles="bg-teal-500 hover:bg-teal-600 px-6 py-3 rounded-full text-white font-semibold shadow-md transition-transform transform hover:scale-105"
+                containerStyles="bg-teal-500 hover:bg-teal-600 px-6 py-3 mt-5 rounded-full text-white font-semibold shadow-md transition-transform transform hover:scale-105"
                 textStyles="text-base"
               />
             </Link>

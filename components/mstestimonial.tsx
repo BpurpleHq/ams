@@ -49,10 +49,10 @@ const TestimonialsSection: React.FC = () => {
         <div className="text-center mt-12">
          <Link href="/resources/testimonial" passHref>  {/**changed the button name and url **/}
         <CustomButton
-          title='More Testimonials..'
-          btnType='button'
-          containerStyles='bg-teal-400 py-2 px-5 rounded-lg hover:bg-teal-700'
-          textStyles='text-white font-medium hover:text-white'
+          title="More Testimonials.."
+          btnType="button"
+          containerStyles="bg-teal-500 hover:bg-teal-600 px-6 py-3 mt-5 rounded-full text-white font-semibold shadow-md transition-transform transform hover:scale-105"
+          textStyles="text-base"
         />
       </Link>
           

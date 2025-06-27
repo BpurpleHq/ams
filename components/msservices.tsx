@@ -37,9 +37,9 @@ const ServicesSection: React.FC = () => {
                 <p className="text-gray-700 mb-6 leading-relaxed">{service.description}</p>
                 <Link href="/services" passHref>
                   <CustomButton
-                    title="Read More"
+                    title="Read More.."
                     btnType="button"
-                    containerStyles="bg-teal-500 hover:bg-teal-600 px-6 py-2 rounded-full text-white font-semibold shadow-md transition-transform transform hover:scale-105"
+                    containerStyles="hover:bg-teal-600 px-6 py-2 text-teal-600 font-semibold hover:text-white shadow-md transition-transform transform hover:scale-105"
                     textStyles="text-base"
                   />
                 </Link>

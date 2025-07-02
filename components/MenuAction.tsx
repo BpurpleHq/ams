@@ -10,7 +10,7 @@ const MenuAction = () => {''
         <CustomButton
           title='Contact Us'
           btnType='button'
-          containerStyles='bg-teal-400 py-2 px-5 rounded-lg hover:bg-teal-700'
+          containerStyles='bg-teal-400 py-2 px-5 rounded-lg hover:bg-teal-600'
           textStyles='text-white font-medium hover:text-white'
         />
       </Link>

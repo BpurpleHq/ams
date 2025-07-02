@@ -34,7 +34,7 @@ const TestimonialsSection: React.FC = () => {
               return (
                 <div
                   key={index}
-                  className={`bg-white p-8 rounded-2xl shadow-lg flex flex-col transition-transform duration-300 hover:shadow-2xl hover:scale-105 animate-fade-in`}
+                  className={`bg-white p-8 rounded-2xl shadow-lg flex flex-col transition-transform duration-300 hover:bg-teal-50 hover:shadow-2xl hover:scale-105 animate-fade-in`}
                   style={{ marginLeft: isIndented ? '80px' : '0px' }}
                 >
                   <p className="text-gray-700 italic text-lg leading-relaxed">"{item.quote}"</p>

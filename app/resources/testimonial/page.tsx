@@ -14,7 +14,7 @@ const page = () => {
    <section className="bg-white py-10">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center duration-600 animate-fade-in">
         <div className="w-full md:w-full text-center md:text-left mt-10">
-          <h2 className="text-3xl font-bold m-4">What our clients say about us</h2>
+          <h2 className="text-4xl font-bold m-4">What our clients say about us</h2>
           <p className="text-lg mb-2 text-left">
           Don't take our word for it, hear what our esteemed clients are saying.
           </p>
@@ -34,7 +34,7 @@ const page = () => {
               return (
                 <div
                   key={index}
-                  className="bg-white p-6 rounded-lg shadow-md flex items-center transform transition duration-300 hover:shadow-lg hover:scale-105"
+                  className="bg-white p-6 rounded-lg shadow-md flex items-center transform transition hover:bg-teal-50 duration-300 hover:shadow-lg hover:scale-105"
                   style={{
                     marginLeft: isIndented ? '80px' : '0px', 
                   }}

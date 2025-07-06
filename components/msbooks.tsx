@@ -11,7 +11,6 @@ const BooksSection: React.FC = () => {
     <>
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="container mx-auto px-6 max-w-6xl flex flex-col md:flex-row items-center gap-12">
-          {/* Text Content */}
           <div className="w-full md:w-1/2 space-y-6">
             <h2 className="text-4xl md:text-5xl font-extrabold text-teal-900">
               Discover Our Latest <span className="text-teal-600">Books</span>
@@ -30,7 +29,6 @@ const BooksSection: React.FC = () => {
             </Link>
           </div>
 
-          {/* Image Section */}
           <div className="w-full md:w-1/2">
             <Image
               src="/heywife.jpg"

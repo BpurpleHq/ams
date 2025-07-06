@@ -68,6 +68,17 @@ export const slides = [
 
   },
   {
+    src: '/sliderimage2.jpeg',
+    alt: '14-days-challenge',
+    prompt: 'Coming Soon',
+    title: '14 Days to Peaceful Conversations Challenge',
+    description: 'What If One Small Shift Could Change Every Conversation in Your Marriage?',
+    cta: 'Join the Challenge',
+    link: '/14-days-challenge',
+    cta2: 'Contact Us',
+    link2: '/contact',
+  },
+  {
     src: '/sliderimage.jpeg',
     alt: 'LAB',
     prompt: 'Coming Soon',
@@ -78,17 +89,7 @@ export const slides = [
     cta2: 'Contact Us',
     link2: '/contact',
   },
-  {
-    src: '/sliderimage2.jpeg',
-    alt: '3C Masterclass',
-    prompt: 'Coming Soon',
-    title: 'Couples Reconnect (3Cs Masterclass)',
-    description: 'An in-depth program aimed at helping married couples overcome barriers to deep connection, effective communication, and peaceful conflict resolution.',
-    cta: 'Join the Waitlist',
-    link: '#',
-    cta2: 'Contact Us',
-    link2: '/contact',
-  },
+  
 ];
 
 export const footerLinks = [

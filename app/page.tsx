@@ -9,7 +9,7 @@ import SpecialistSection from "@/components/msspecialist";
 import Books from "@/components/msbooks";
 import Heromid from "@/components/msheromid";
 import Tama from "@/components/tama";
-import AOS from 'aos';
+// import AOS from 'aos';
 
 
 
@@ -17,9 +17,9 @@ import AOS from 'aos';
 
 export default function Home() {
 
-  useEffect(() => {
-        AOS.init();
-      }, [])
+  // useEffect(() => {
+  //       AOS.init();
+  //     }, [])
   
 
   return (

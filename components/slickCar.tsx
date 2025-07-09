@@ -72,7 +72,7 @@ const Carousels: React.FC = () => {
                   <CustomButton
                     title={slide.cta}
                     btnType="button"
-                    containerStyles="bg-teal-500 hover:bg-teal-600 px-6 py-3 rounded-full text-white font-semibold shadow-lg transition-transform transform hover:scale-105"
+                    containerStyles="bg-teal-500 hover:bg-teal-600 px-6 py-3 rounded-full text-white shadow-lg transition-transform transform hover:scale-105"
                     textStyles="text-base"
                   />
                 </Link>
@@ -80,7 +80,7 @@ const Carousels: React.FC = () => {
                   <CustomButton
                     title={slide.cta2}
                     btnType="button"
-                    containerStyles="bg-transparent border-2 border-white hover:bg-white hover:border-white px-6 py-3 rounded-full text-white font-semibold shadow-lg transition-colors hover:text-teal-600"
+                    containerStyles="bg-transparent border-2 border-white hover:bg-white hover:border-white px-6 py-3 rounded-full text-white shadow-lg transition-colors hover:text-teal-600"
                     textStyles="text-base"
                   />
                 </Link>

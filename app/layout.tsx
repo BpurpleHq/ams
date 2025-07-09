@@ -3,8 +3,7 @@ import { Darker_Grotesque } from 'next/font/google';
 import Head from 'next/head';
 import Nav from '@/components/msnav';
 import Footer from '@/components/Footer';
-import NewsletterSection from '@/components/msnewsletter';
-import Upcoming from '@/components/upcoming';
+
 
 
 const darkerGrotesque = Darker_Grotesque({
@@ -26,10 +25,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <body className="font-Lato">
+
         <Nav />
-        <Upcoming />
         {children}
-        <NewsletterSection />
+
         <Footer />
 
       </body>

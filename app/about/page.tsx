@@ -5,6 +5,7 @@ import Link from "next/link";
 import Script from "next/script";
 import { type Metadata } from "next";
 import StatsSection from "@/components/msstat";
+import NewsletterSection from '@/components/msnewsletter';
 
 export const metadata: Metadata = {
   title: "AskMrzSparkles | About Us",
@@ -133,6 +134,7 @@ export default function AboutPage() {
         </div>
       </section>
 
+      <NewsletterSection />
       
     </main>
   );

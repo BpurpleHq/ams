@@ -1,6 +1,6 @@
 
-
-
+import Image from "next/image";
+import Link from "next/link";
 import Script from "next/script";
 
 const CoupleChallenge = () => {
@@ -138,9 +138,47 @@ const CoupleChallenge = () => {
             Don’t wait until the gap is too wide to bridge. This is your opportunity to start changing things using one small, intentional step at a time.
           </p>
         </div>
+      </div>
+
+        <div className="w-full mx-auto mt-16 bg-teal-100 py-20 px-6 flex flex-col md:flex-row-reverse items-center gap-12">
+          <div className="w-full md:w-1/3">
+            <Image
+              src="/sparkles3.png"
+              alt="Fejiro Adaka, Founder"
+              width={350}
+              height={400}
+              className="rounded-xl shadow-lg object-cover h-auto transition-transform transform hover:scale-105"
+            />
+          </div>
+          <div className="w-full md:w-1/2 space-y-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-teal-900">
+              Meet the <span className="text-teal-600">Coach</span>
+            </h2>
+            <p className="text-lg text-gray-600 leading-relaxed">
+              In the first two years of my marriage, I often wondered if we’d ever figure out how to argue without hurting each other, or disagree without growing distant.
+
+            </p>
+            <p className="text-lg text-gray-600 leading-relaxed">
+              Fast forward 11 years, and not only do we disagree peacefully, we’re truly enjoying our marriage and I want the same for you.
+
+            </p>
+            <p className="text-lg text-gray-600 leading-relaxed">
+               Hi, I'm Fejiro Adaka but you can call me MrzSparkles. As a Certified Emotional Intelligence and Marriage Coach, with experience as a Master Practitioner of Neuro Linguistics Programming (NLP) I’ve helped hundreds of individuals and couples build healthier communication habits and deepen their emotional connection in marriage.
+            </p>
+             <p className="text-lg text-gray-600 leading-relaxed">
+              This 14-Day Challenge for Couples is a rare opportunity and one I’m offering completely free for now , because I know how many marriages need this kind of support right now.
+            </p>
+            <p className="text-lg text-gray-600 leading-relaxed">
+              If you’re ready to feel more seen, heard, and connected in your marriage…
+            </p>
+            <p className="text-lg text-gray-600 leading-relaxed">
+              Sign up now I’ll be right there with you every step of the way.
+            </p>
+          </div>
+        </div>
 
         {/* Final CTA */}
-        <div className="mt-16 text-center">
+        <div className="mt-16 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-teal-900 mb-6">
             Ready to Join?
           </h2>
@@ -161,8 +199,7 @@ const CoupleChallenge = () => {
             Let’s help you build a marriage that’s not just full of love… but full of peace.
           </p>
         </div>
-      </div>
-    </section>
+      </section>
   );
 };
 

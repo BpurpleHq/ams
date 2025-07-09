@@ -72,7 +72,7 @@ export const slides = [
     alt: '14-days-challenge',
     prompt: 'Coming Soon',
     title: '14 Days to Peaceful Conversations Challenge',
-    description: 'What If One Small Shift Could Change Every Conversation in Your Marriage?',
+    description: 'What If One Small Shift Could Change Every Conversation in Your Marriage? Many couples struggle with communication, not because they don’t love each other, but because they haven’t been taught how to navigate emotional triggers and build safety.',
     cta: 'Join the Challenge',
     link: '/14-days-challenge',
     cta2: 'Contact Us',

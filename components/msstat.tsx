@@ -15,7 +15,7 @@ const StatsSection = () => {
             <div
               key={id}
               className="bg-white/10 backdrop-blur-lg rounded-xl p-6 text-center text-white flex flex-col items-center justify-center hover:bg-white/20 transition-colors duration-300 animate-fade-in">
-              <p className="text-4xl md:text-5xl font-bold text-white mb-2">
+              <p className="text-3xl md:text-7xl font-bold text-white mb-2">
                 {figure}
               </p>
               <p className="text-base md:text-lg font-light">{title}</p>

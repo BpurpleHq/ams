@@ -9,6 +9,7 @@ import SpecialistSection from "@/components/msspecialist";
 import Books from "@/components/msbooks";
 import Heromid from "@/components/msheromid";
 import Tama from "@/components/tama";
+import NewsletterSection from '@/components/msnewsletter';
 // import AOS from 'aos';
 
 
@@ -53,6 +54,11 @@ export default function Home() {
       <section className="bg-extra" data-aos="fade-up">
         <Books />
       </section>
+
+       <section className="bg-extra" data-aos="fade-up">
+        <NewsletterSection />
+      </section>
+      
       
     </main>
   );

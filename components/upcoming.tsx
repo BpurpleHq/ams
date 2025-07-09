@@ -7,7 +7,7 @@ const Upcoming = () => {
     
     <div className='bg-teal-200'>
      <Link href='/14-days-challenge'>
-        <p className=' text-black font-light text-center z-100'> Join our 14 Days to Peaceful Conversations Challenge</p>
+        <p className='text-black font-light text-center z-100'> Join our 14 Days to Peaceful Conversations Challenge</p>
      </Link>         
     </div>
   )

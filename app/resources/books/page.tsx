@@ -76,6 +76,14 @@ const Page = () => {
                 textStyles="text-base"
               />
             </a>
+            <a href="https://selar.com/ipo" target="_blank" rel="noopener noreferrer">
+              <CustomButton
+                title="Get a downloadable copy here (Soft Copy)"
+                btnType="button"
+                containerStyles="bg-teal-50 hover:bg-teal-200 px-6 py-3 items-center text-teal-900 font-semibold shadow-md "
+                textStyles="text-base"
+              />
+            </a>
             </div>
           </div>
         </div>

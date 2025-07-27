@@ -72,7 +72,7 @@ const Page = () => {
               <CustomButton
                 title="On Selar (Delivery & Pick up options available)"
                 btnType="button"
-                containerStyles="bg-teal-50 hover:bg-teal-200 px-6 py-3 items-center text-teal-900 font-semibold shadow-md "
+                containerStyles="bg-teal-50 hover:bg-teal-200 px-6 py-3 items-center text-teal-900 font-semibold shadow-md mb-5"
                 textStyles="text-base"
               />
             </a>

@@ -28,7 +28,7 @@ const CoupleChallenge = () => {
           {/* Hero Section */}
         <div className="text-center">
           <a
-            href="https://fierce-experimenter-6691.kit.com/2882615fdf"
+            href="https://fierce-experimenter-6691.kit.com/23819b184e"
             className="inline-block bg-teal-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-teal-700 transition duration-300"
           >
             Yes, I’m ready to join the 14 days Challenge
@@ -40,7 +40,7 @@ const CoupleChallenge = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-teal-900 text-center mb-6">
             Introducing the 14 Days to Peaceful Conversations Challenge
           </h2>
-          <p className="text-center text-lg text-teal-700 font-semibold mb-8">(Free for now)</p>
+          {/*<p className="text-center text-lg text-teal-700 font-semibold mb-8">(Free for now)</p>*/}
           <p className="text-lg text-gray-700 mb-6">
             This 14-day, step-by-step email challenge is designed to help you and your spouse improve communication, build emotional safety, and reconnect with each other even if things feel tense right now.
           </p>
@@ -61,7 +61,7 @@ const CoupleChallenge = () => {
           </ul>
           <div className="text-center">
             <a
-              href="https://fierce-experimenter-6691.kit.com/2882615fdf"
+              href="https://fierce-experimenter-6691.kit.com/23819b184e"
               className="inline-block bg-teal-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-teal-700 transition duration-300"
             >
               Join the 14 days Couples Challenge now!
@@ -86,7 +86,7 @@ const CoupleChallenge = () => {
           </ul>
           <div className="text-center">
             <a
-              href="https://fierce-experimenter-6691.kit.com/2882615fdf"
+              href="https://fierce-experimenter-6691.kit.com/23819b184e"
               className="inline-block bg-teal-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-teal-700 transition duration-300"
             >
               You certainly don't want to miss this.. yeah?
@@ -189,7 +189,7 @@ const CoupleChallenge = () => {
             Click the button below to join the challenge now and start transforming your conversations and your connection.
           </p>
           <a
-            href="https://fierce-experimenter-6691.kit.com/2882615fdf"
+            href="https://fierce-experimenter-6691.kit.com/23819b184e"
             className="inline-block bg-teal-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-teal-700 transition duration-300"
             id="register"
           >

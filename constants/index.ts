@@ -51,6 +51,18 @@ export const menuLinks = [
 ];
 
 export const slides = [
+
+    {
+    src: '/image.jpg',
+    alt: 'Before You Say “I Do”',
+    prompt: 'Coming Soon',
+    title: 'Before You Say “I Do” -  90-Minutes Masterclass',
+    description: ' Learn How to Prepare for Marriage Without Pressure, Confusion, or Regret for singles and dating couples who want to build a strong foundation for lasting love. ',
+    cta: 'Secure Your Spot Now',
+    link: '/bysid',
+    cta2: 'Contact Us',
+    link2: '/contact',
+  },
   {
     src: '/ms3.jpeg',
     alt: 'The Inter',
@@ -67,17 +79,18 @@ export const slides = [
     link2: '/contact',
 
   },
-  {
-    src: '/sliderimage2.jpeg',
-    alt: '14-days-challenge',
-    prompt: 'Coming Soon',
-    title: '14 Days to Peaceful Conversations Challenge',
-    description: 'What If One Small Shift Could Change Every Conversation in Your Marriage? Many couples struggle with communication, not because they don’t love each other, but because they haven’t been taught how to navigate emotional triggers and build safety.',
-    cta: 'Join the Challenge',
-    link: '/14-days-challenge',
-    cta2: 'Contact Us',
-    link2: '/contact',
-  },
+  
+  // {
+  //   src: '/sliderimage2.jpeg',
+  //   alt: '14-days-challenge',
+  //   prompt: 'Coming Soon',
+  //   title: '14 Days to Peaceful Conversations Challenge',
+  //   description: 'What If One Small Shift Could Change Every Conversation in Your Marriage? Many couples struggle with communication, not because they don’t love each other, but because they haven’t been taught how to navigate emotional triggers and build safety.',
+  //   cta: 'Join the Challenge',
+  //   link: '/14-days-challenge',
+  //   cta2: 'Contact Us',
+  //   link2: '/contact',
+  // },
   {
     src: '/sliderimage.jpeg',
     alt: 'LAB',

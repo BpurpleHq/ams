@@ -19,7 +19,8 @@ const CoupleChallenge = () => {
             Are you finding it difficult to express how you feel without things becoming defensive or emotionally charged?
           </p>
           <p className="text-lg text-gray-700 mb-6">
-            If this sounds familiar, you’re not alone. Many couples struggle with communication, not because they don’t love each other, but because they haven’t been taught how to navigate emotional triggers and build safety.
+            If this sounds familiar, you’re not alone. Many couples struggle with communication, not because they don’t love each other, 
+            but because they haven’t been taught how to navigate emotional triggers and build safety.
           </p>
           <p className="text-xl font-semibold text-teal-900 mb-8">
             The good news? There’s a better way. And it starts here.
@@ -42,7 +43,8 @@ const CoupleChallenge = () => {
           </h2>
           {/*<p className="text-center text-lg text-teal-700 font-semibold mb-8">(Free for now)</p>*/}
           <p className="text-lg text-gray-700 mb-6">
-            This 14-day, step-by-step email challenge is designed to help you and your spouse improve communication, build emotional safety, and reconnect with each other even if things feel tense right now.
+            This 14-day, step-by-step email challenge is designed to help you and your spouse improve communication, build emotional 
+            safety, and reconnect with each other even if things feel tense right now.
           </p>
           <p className="text-lg text-gray-700 mb-6">In just 14 days, you’ll discover practical, proven tools to:</p>
           <ul className="list-disc list-inside text-lg text-gray-700 mb-6 space-y-2">
@@ -132,10 +134,12 @@ const CoupleChallenge = () => {
             Why Join Now?
           </h2>
           <p className="text-lg text-gray-700 mb-6">
-            Because unresolved communication challenges don’t go away on their own. Every day you delay could be deepening emotional distance, weakening trust, and reinforcing unhealthy patterns.
+            Because unresolved communication challenges don’t go away on their own. Every day you delay could be deepening emotional 
+            distance, weakening trust, and reinforcing unhealthy patterns.
           </p>
           <p className="text-lg text-gray-700 mb-8">
-            Don’t wait until the gap is too wide to bridge. This is your opportunity to start changing things using one small, intentional step at a time.
+            Don’t wait until the gap is too wide to bridge. This is your opportunity to start changing things using one small, 
+            intentional step at a time.
           </p>
         </div>
       </div>
@@ -155,7 +159,8 @@ const CoupleChallenge = () => {
               Meet the <span className="text-teal-600">Coach</span>
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              In the first two years of my marriage, I often wondered if we’d ever figure out how to argue without hurting each other, or disagree without growing distant.
+              In the first two years of my marriage, I often wondered if we’d ever figure out how to argue without hurting each other, or 
+              disagree without growing distant.
 
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
@@ -163,10 +168,13 @@ const CoupleChallenge = () => {
 
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-               Hi, I'm Fejiro Adaka but you can call me MrzSparkles. As a Certified Emotional Intelligence and Marriage Coach, with experience as a Master Practitioner of Neuro Linguistics Programming (NLP) I’ve helped hundreds of individuals and couples build healthier communication habits and deepen their emotional connection in marriage.
+               Hi, I'm Fejiro Adaka but you can call me MrzSparkles. As a Certified Emotional Intelligence and Marriage Coach, with 
+               experience as a Master Practitioner of Neuro Linguistics Programming (NLP) I’ve helped hundreds of individuals and couples 
+               build healthier communication habits and deepen their emotional connection in marriage.
             </p>
              <p className="text-lg text-gray-600 leading-relaxed">
-              This 14-Day Challenge for Couples is a rare opportunity and one I’m offering completely free for now , because I know how many marriages need this kind of support right now.
+              This 14-Day Challenge for Couples is a rare opportunity and one I’m offering completely free for now , because I know how 
+              many marriages need this kind of support right now.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
               If you’re ready to feel more seen, heard, and connected in your marriage…

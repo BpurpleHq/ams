@@ -1,7 +1,6 @@
 "use client";
 
 
-
 import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
@@ -61,9 +60,7 @@ const BeforeYouSayIDo = () => {
         <div className="mt-16">
           <h2 className="text-3xl md:text-4xl font-bold text-teal-900 text-center mb-6">
             In just 90 minutes, you will: </h2>
-          <p className="text-lg text-gray-600 mb-6 max-w-3xl mx-auto text-center">
-            In just one session, you’ll walk away with actionable tools to prepare for marriage with confidence:
-          </p>
+         
           <ul className="list-disc list-inside text-lg text-gray-600 mb-8 space-y-3 max-w-3xl mx-auto">
             <li>Uncover hidden beliefs shaping your expectations about marriage.</li>
             <li>Understand the real demands of marriage beyond culture and romance.</li>
@@ -132,19 +129,15 @@ const BeforeYouSayIDo = () => {
             <p className="text-lg text-teal-900 leading-relaxed">
               Fejiro Adaka (aka <strong>MrzSparkles</strong>)has helped hundreds of individuals 
               globally to transform their minds and become better partners in their relationships and marriage.
-              <p className="text-lg text-teal-900 leading-relaxed"> She is a certified Emotional Intelligence and Marriage Coach who is deeply passionate about helping career professionals and 
-business owners heal from past trauma, build self awareness and position themselves to start and remain married without tears.</p>
+              <p className="text-lg text-teal-900 leading-relaxed"> She is a certified Emotional Intelligence and Marriage Coach who is 
+                deeply passionate about helping career professionals and business owners heal from past trauma, build self 
+                awareness and position themselves to start and remain married without tears.</p>
 
-<p className="text-lg text-teal-900 leading-relaxed"> She has been happily married for 11 years and her goal is to see strong and healthy relationships emerge with purpose and passion. </p>
-
+              <p className="text-lg text-teal-900 leading-relaxed"> She has been happily married for 11 years and her goal is to see 
+                strong and healthy relationships emerge with purpose and passion. </p>
 
             </p>
-           {/* <ul className="list-disc list-inside text-lg text-teal-900 space-y-2">
-              <li>Heal limiting beliefs.</li>
-              <li>Build strong emotional foundations.</li>
-              <li>Navigate cultural pressures with wisdom.</li>
-              <li>Prepare intentionally for marriage, not blindly.</li>
-            </ul>*/}
+        
             <p className="text-lg leading-relaxed font-semibold">
               “Love is not enough to build a lasting marriage but preparation is.”
             </p>
@@ -226,16 +219,16 @@ business owners heal from past trauma, build self awareness and position themsel
           <p className="text-lg text-gray-600 mb-6 max-w-3xl mx-auto">
             Because the difference between a thriving marriage and one filled with regret often lies in how well you prepared before saying “I do.”
           </p>
-          <a
+          <p className="text-xl font-semibold text-teal-500 mt-8">
+            Don’t leave your future to chance or pressure.
+            Click below to secure your seat now.
+          </p>
+           <a
             href="https://selar.com/singlesmasterclass"
             className="inline-block bg-teal-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-teal-500 transition duration-300"
           >
             Register Now
           </a>
-          <p className="text-xl font-semibold text-teal-500 mt-8">
-            Don’t leave your future to chance or pressure.
-            Click below to secure your seat now.
-          </p>
         </div>
       </div>
     </section>

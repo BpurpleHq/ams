@@ -54,10 +54,10 @@ export const slides = [
 
     {
     src: '/image.jpg',
-    alt: 'Before You Say “I Do”',
+    alt: 'Before You Say I Do Masterclass',
     prompt: 'Coming Soon',
-    title: 'Before You Say “I Do” -  90-Minutes Masterclass',
-    description: ' Learn How to Prepare for Marriage Without Pressure, Confusion, or Regret for singles and dating couples who want to build a strong foundation for lasting love. ',
+    title: 'Before You Say I Do Masterclass',
+    description: ' If you’re serious about love, but want to build it with wisdom, not pressure, this is your moment to prepare intentionally. A 90-minute session for intentional singles and committed partners who want to build lasting love the right way. ',
     cta: 'Secure Your Spot Now',
     link: '/bysid',
     cta2: 'Contact Us',

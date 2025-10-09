@@ -14,17 +14,15 @@ const BeforeYouSayIDo = () => {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Hero Section */}
         <div className="text-center">
-          <h1 className="text-4xl md:text-5xl font-extrabold text-teal-900 mb-6 leading-tight">
-            Before You Say I Do MasterClass: <br />
-            <span className="text-teal-900 md:text-3xl">How to Prepare for Marriage Without Pressure, Confusion or Regret</span>
+          <h1 className="text-xl md:text-4xl font-extrabold text-teal-900 mb-6 leading-tight">Before You Say I Do MasterClass: <br />
+            <span className="text-teal-900">How to Prepare for Marriage Without Pressure, Confusion or Regret</span>
           </h1>
           <p className="text-lg text-gray-600 mb-4 max-w-3xl mx-auto">
             Stop leaving your future to chance. The choices you make <strong>before marriage</strong> determine the quality of the life you’ll build after it.
           </p>
           <p className="text-lg text-gray-600 mb-8 max-w-3xl mx-auto">
             If you’re serious about love, but want to build it with  <strong>wisdom, not pressure</strong>, this is your moment to prepare intentionally.
-             <strong> 90-minute MasterClass</strong>
-            session for intentional singles and committed partners who want to build lasting love the right way.
+             <strong> 90-minute MasterClass</strong>, session for intentional singles and committed partners who want to build lasting love the right way.
             
           </p>
           <div className="flex flex-col items-center">
@@ -42,32 +40,27 @@ const BeforeYouSayIDo = () => {
         {/* Why This MasterClass */}
         <div className="mt-16">
           <h2 className="text-3xl md:text-4xl font-bold text-teal-900 text-center mb-6">
-            Why You Need This MasterClass
+            This Masterclass Is For You If you are:
           </h2>
-          <p className="text-lg text-gray-600 mb-6 max-w-3xl mx-auto text-center">
-            Marriage isn’t built on love alone—it’s built on clarity, emotional readiness, and truth. This MasterClass is for intentional singles and committed partners who want to:
-          </p>
+
 
           <ul className="list-disc list-inside text-lg text-gray-600 mb-8 space-y-3 max-w-3xl mx-auto">
-            <li>
-               In a dating relationship and seriously considering marriage.
-            </li>
-            <li>
-               Single but preparing and want to get it right before saying “I do.”
-            </li>
-            <li>
-               Tired of cultural pressure, confusion, or fear of choosing wrong.
-            </li>
-            <li>Ready to build with intention from a place of clarity,not just guesswork and vibes.
-            </li>
+            <li> In a dating relationship and seriously considering marriage.</li>
+            <li> Single but preparing and want to get it right before saying “I do.” </li>
+            <li> Tired of cultural pressure, confusion, or fear of choosing wrong.</li>
+            <li> Ready to build with intention from a place of clarity,not just guesswork and vibes.</li>
           </ul>
+
+          <p className="text-lg text-gray-600 mb-6 max-w-3xl mx-auto text-center">
+             This session gives you the clarity, tools, and mindset to become the kind 
+             of partner who can build a strong, lasting foundation for marriage.
+          </p>
         </div>
 
         {/* What You'll Learn */}
         <div className="mt-16">
           <h2 className="text-3xl md:text-4xl font-bold text-teal-900 text-center mb-6">
-            What You’ll Learn in 90 Minutes
-          </h2>
+            In just 90 minutes, you will: </h2>
           <p className="text-lg text-gray-600 mb-6 max-w-3xl mx-auto text-center">
             In just one session, you’ll walk away with actionable tools to prepare for marriage with confidence:
           </p>
@@ -78,10 +71,13 @@ const BeforeYouSayIDo = () => {
             <li>Gain clarity on roles and expectations to prevent future conflict.</li>
             <li>Discover the BOND framework to navigate differences with emotional intelligence.</li>
           </ul>
+          <p className="text-lg text-gray-600 mb-6 max-w-3xl mx-auto text-center">
+             These are the tools most couples wish they had before they said “I do.
+          </p>
           <div className="text-center">
-            <a
-              href="https://selar.com/singlesmasterclass"
-              className="inline-block bg-teal-500 text-white px-8 py-4 rounded-full text-lg font-semibold"
+            <a href="https://selar.com/singlesmasterclass"
+        
+            className="inline-block bg-teal-500 text-white px-8 py-4 rounded-full text-lg font-semibold"
             >
               Join the MasterClass Now
             </a>
@@ -158,7 +154,7 @@ business owners heal from past trauma, build self awareness and position themsel
         {/* Testimonials */}
         <div className="mt-16">
           <h2 className="text-3xl md:text-4xl font-bold text-teal-900 text-center mb-6">
-            What Others Are Saying
+            What others are saying (Testimonial):
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
@@ -167,6 +163,21 @@ business owners heal from past trauma, build self awareness and position themsel
                 I’ve started applying what I learned, and I’m grateful for the transformation journey that began with MrzSparkles.”
               </p>
               <p className="text-sm font-semibold text-teal-500">Anonymous</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <p className="text-lg text-gray-600 mb-4">
+                “I wasn't sure I would get much value from the session, but it turned out to be a good experience. I learnt new things about my partner, especially the importance of understanding her 
+                love languages, cultural beliefs, and specific traits I need to pay attention to and improve on."
+              </p>
+              <p className="text-sm font-semibold text-teal-500">E.N. Port Harcourt</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <p className="text-lg text-gray-600 mb-4">
+                "Having a product available for singles was so helpful. The sessions helped me feel validated and gave me the clarity to articulate my thoughts, beliefs, and actions around relationships and marriage. I’m going back into the dating market with more confidence. 
+                Just be open-minded, go through the process without expectations, and decide if you want to accept things as they are or take responsibility for changing them."
+
+              </p>
+              <p className="text-sm font-semibold text-teal-500">S. Lagos, Nigeria</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <p className="text-lg text-gray-600 mb-4">
@@ -186,7 +197,17 @@ business owners heal from past trauma, build self awareness and position themsel
             Why This Matters
           </h2>
           <p className="text-lg text-gray-600 mb-6 max-w-3xl mx-auto">
-            Many enter marriage with unexamined beliefs or avoid crucial conversations about money, roles, or family boundaries. This MasterClass helps you confront those blind spots <strong>before</strong> they become struggles.
+            Many singles step into marriage with cultural or religious beliefs that don’t match real-life partnership. 
+            Some rely on love and prayers to fix what honest communication should, while others avoid vital talks about money, 
+            roles, or boundaries until it’s too late.
+
+          
+          </p>
+          <p className="text-lg text-gray-600 mb-6 max-w-3xl mx-auto">
+
+            This masterclass helps you uncover and address those blind spots before they turn into struggles.
+
+          
           </p>
         </div>
 
@@ -196,7 +217,14 @@ business owners heal from past trauma, build self awareness and position themsel
             Ready to Prepare Intentionally?
           </h2>
           <p className="text-lg text-gray-600 mb-6 max-w-3xl mx-auto">
-            Don’t leave your future to chance, culture, or confusion. Secure your seat now and start building a marriage that’s joyful, safe, and lasting.
+            At the end of the masterclass, you’ll also discover how to go deeper with our 1-Month Marriage Preparatory Coaching Program, 
+            where each pillar is unpacked with practical tools and guided conversations.
+          </p>
+          <p className="text-lg text-gray-600 mb-6 max-w-3xl mx-auto">
+            But first start here. Start with clarity.
+          </p>
+          <p className="text-lg text-gray-600 mb-6 max-w-3xl mx-auto">
+            Because the difference between a thriving marriage and one filled with regret often lies in how well you prepared before saying “I do.”
           </p>
           <a
             href="https://selar.com/singlesmasterclass"
@@ -205,7 +233,8 @@ business owners heal from past trauma, build self awareness and position themsel
             Register Now
           </a>
           <p className="text-xl font-semibold text-teal-500 mt-8">
-            Prepare wisely. Love intentionally. Build a marriage that lasts.
+            Don’t leave your future to chance or pressure.
+            Click below to secure your seat now.
           </p>
         </div>
       </div>

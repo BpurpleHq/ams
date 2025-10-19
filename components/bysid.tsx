@@ -8,6 +8,27 @@ import { useState, useEffect } from "react";
 const BeforeYouSayIDo = () => {
 
 
+
+
+
+
+// "use client";
+
+// import Image from "next/image";
+// import Link from "next/link";
+// import { useState, useEffect } from "react";
+// import ReactGA from "react-ga4";
+
+// const BeforeYouSayIDo: React.FC = () => {
+//   const handleButtonClick = (buttonLabel: string) => {
+//     ReactGA.event({
+//       category: "Button",
+//       action: "Click",
+//       label: buttonLabel,
+//     });
+//   };
+
+
   return (
     <section className="w-full bg-gradient-to-b from-white to-gray-50 py-16">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -28,6 +49,7 @@ const BeforeYouSayIDo = () => {
             <a
               href="https://selar.com/singlesmasterclass"
               className="inline-block bg-teal-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-teal-500 transition duration-300"
+              
             >
               Secure Your Spot Now
             </a>
@@ -72,9 +94,10 @@ const BeforeYouSayIDo = () => {
              These are the tools most couples wish they had before they said “I do.
           </p>
           <div className="text-center">
-            <a href="https://selar.com/singlesmasterclass"
-        
-            className="inline-block bg-teal-500 text-white px-8 py-4 rounded-full text-lg font-semibold"
+            <a
+              href="https://selar.com/singlesmasterclass"
+              className="inline-block bg-teal-500 text-white px-8 py-4 rounded-full text-lg font-semibold"
+            
             >
               Join the MasterClass Now
             </a>

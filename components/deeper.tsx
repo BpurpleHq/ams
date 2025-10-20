@@ -119,7 +119,7 @@ const deeper: React.FC = () => {
             You are probably thinking…
           </h2>
           <ul className="list-disc list-inside text-lg text-gray-600 mb-8 space-y-3 max-w-3xl mx-auto">
-            <p>“We’re not doing badly… maybe later.”</p>
+            <p>“We’re not doing badly, maybe later.”</p>
             <p>“Four weeks? I don’t have time for this”</p>
             <p>“Things will sort themselves out eventually.”</p>
             <p>My Clients have told me severally “I wish we learnt these sooner”</p>
@@ -150,7 +150,7 @@ You have the gift of time, don’t wait until disconnection quietly grows roots.
               Event Details
             </h2>
             <p className="text-lg text-teal-900 mb-4">
-              <strong>Date:</strong> Starting Monday, 4th November 2025
+              <strong>Date:</strong> Saturday, 15th, 22nd, 29th November and 6th December, 2025.
             </p>
             <p className="text-lg text-teal-900 mb-4">
               <strong>Time:</strong> 7:00 PM WAT (Weekly Sessions)
@@ -172,7 +172,7 @@ You have the gift of time, don’t wait until disconnection quietly grows roots.
         <div className="mt-16 bg-teal-100 py-12 px-6 rounded-lg flex flex-col md:flex-row items-center gap-12">
           <div className="w-full md:w-1/3">
             <Image
-              src="/sparkles3.png" // Reuse or replace with actual coach image
+              src="/sparkles3.png" 
               alt="Fejiro Adaka, Coach"
               width={350}
               height={400}
@@ -186,13 +186,13 @@ You have the gift of time, don’t wait until disconnection quietly grows roots.
             <p className="text-lg text-teal-900 leading-relaxed">
               Hi, I’m <strong>Fejiro Adaka</strong> (aka <strong>MrzSparkles</strong>), a
               Certified Emotional Intelligence and Marriage Coach who has helped 100+ individuals
-              and couples across the world transform how they think, feel, and show up in love — not
+              and couples across the world transform how they think, feel, and show up in love, not
               by striving for perfection, but by learning how to grow together with awareness, empathy,
               and purpose.
             </p>
             <p className="text-lg text-teal-900 leading-relaxed">
               I’ve been married for 11+ beautiful years, and every season has reinforced one lesson:
-              <strong>“Your marriage is about you.”</strong> Through this bootcamp, you’ll get exposed
+              <strong> “Your marriage is about you.”</strong> Through this bootcamp, you’ll get exposed
               to principles that empower you to show up with confidence and empathy.
             </p>
             <p className="text-lg leading-relaxed font-semibold text-teal-900">
@@ -251,7 +251,7 @@ You have the gift of time, don’t wait until disconnection quietly grows roots.
           </h2>
           <p className="text-lg text-gray-600 mb-6 max-w-3xl mx-auto">
             You and your partner likely have 30, 40, even 50 years ahead. Imagine looking back and
-            knowing you made the choice — right here, right now — to invest in a connection that
+            knowing you made the choice, right here, right now to invest in a connection that
             carried you through a lifetime.
           </p>
           <p className="text-lg text-gray-600 mb-6 max-w-3xl mx-auto">

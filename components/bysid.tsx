@@ -3,30 +3,9 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState, useEffect } from "react";
+
 
 const BeforeYouSayIDo = () => {
-
-
-
-
-
-
-// "use client";
-
-// import Image from "next/image";
-// import Link from "next/link";
-// import { useState, useEffect } from "react";
-// import ReactGA from "react-ga4";
-
-// const BeforeYouSayIDo: React.FC = () => {
-//   const handleButtonClick = (buttonLabel: string) => {
-//     ReactGA.event({
-//       category: "Button",
-//       action: "Click",
-//       label: buttonLabel,
-//     });
-//   };
 
 
   return (

@@ -63,6 +63,20 @@ export const slides = [
     cta2: 'Contact Us',
     link2: '/contact',
   },
+
+   {
+    src: '/deeper.jpg',
+    alt: 'deeper bootcamp',
+    prompt: 'Coming Soon',
+    title: 'Deeper Bootcamp 2025',
+    description: 'Your connection with your spouse can be deeper, you and your partner likely have 30, 40, maybe even 70 years ahead with each other. The decisions you make today shape the quality of those years.',
+    cta: 'Read More..',
+    link: '/deeper',
+    cta2: 'Contact Us',
+    link2: '/contact',
+  },
+
+  
   {
     src: '/ms3.jpeg',
     alt: 'The Inter',
@@ -80,17 +94,7 @@ export const slides = [
 
   },
   
-  // {
-  //   src: '/sliderimage2.jpeg',
-  //   alt: '14-days-challenge',
-  //   prompt: 'Coming Soon',
-  //   title: '14 Days to Peaceful Conversations Challenge',
-  //   description: 'What If One Small Shift Could Change Every Conversation in Your Marriage? Many couples struggle with communication, not because they don’t love each other, but because they haven’t been taught how to navigate emotional triggers and build safety.',
-  //   cta: 'Join the Challenge',
-  //   link: '/14-days-challenge',
-  //   cta2: 'Contact Us',
-  //   link2: '/contact',
-  // },
+ 
   {
     src: '/sliderimage.jpeg',
     alt: 'LAB',
